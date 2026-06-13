@@ -1,8 +1,8 @@
 {
-  "input_file": "f35_sentinel_secret_regions_lumen_400g.kmz",
-  "physical_edge_file": "data/lumen_edges.csv",
-  "mapbook_pdf": "data/lumen_network_mapbook_2026.pdf",
-  "objective": "Three-tier WAN design: access nodes dual-home to Lumen aggregation PoPs, aggregation PoPs dual-home to core PoPs over the physical Lumen graph, and the core tier uses at most three nodes.",
+  "input_file": "f35_sentinel_secret_regions_carrier_400g.kmz",
+  "physical_edge_file": "data/carrier_edges.csv",
+  "mapbook_pdf": null,
+  "objective": "Three-tier WAN design: access nodes dual-home to Carrier aggregation PoPs, aggregation PoPs dual-home to core PoPs over the physical Carrier graph, and the core tier uses at most three nodes.",
   "summary": {
     "core_count": 3,
     "aggregation_count": 41,
@@ -11,7 +11,7 @@
     "access_edge_count": 80,
     "physical_edge_count": 89,
     "access_miles": 21068.381,
-    "physical_lumen_miles": 16795.736,
+    "physical_carrier_miles": 16795.736,
     "total_design_miles": 37864.117,
     "score": 37864.117,
     "cores": [
@@ -150,7 +150,7 @@
       "kind": "f35",
       "lat": 36.333,
       "lon": -119.952,
-      "description": "State: California\nNearest city with colocation: Fresno, CA\nData center company: Lumen\nWebsite: https://www.datacenters.com/locations/united-states/california/fresno",
+      "description": "State: California\nNearest city with colocation: Fresno, CA\nData center company: Carrier\nWebsite: https://www.datacenters.com/locations/united-states/california/fresno",
       "tier_role": "access",
       "included": true
     },
@@ -518,1014 +518,1014 @@
       "included": true
     },
     {
-      "id": "lumen_pop_south_bend_in",
+      "id": "carrier_pop_south_bend_in",
       "name": "South Bend, IN",
-      "category": "Lumen 400G PoPs",
-      "kind": "lumen_pop",
+      "category": "Carrier 400G PoPs",
+      "kind": "carrier_pop",
       "lat": 41.6764,
       "lon": -86.25,
-      "description": "Lumen 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
+      "description": "Carrier 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
       "tier_role": "transit",
       "included": true
     },
     {
-      "id": "lumen_pop_kalamazoo_mi",
+      "id": "carrier_pop_kalamazoo_mi",
       "name": "Kalamazoo, MI",
-      "category": "Lumen 400G PoPs",
-      "kind": "lumen_pop",
+      "category": "Carrier 400G PoPs",
+      "kind": "carrier_pop",
       "lat": 42.2917,
       "lon": -85.5872,
-      "description": "Lumen 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
+      "description": "Carrier 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
       "tier_role": "unused",
       "included": false
     },
     {
-      "id": "lumen_pop_boise_id",
+      "id": "carrier_pop_boise_id",
       "name": "Boise, ID",
-      "category": "Lumen 400G PoPs",
-      "kind": "lumen_pop",
+      "category": "Carrier 400G PoPs",
+      "kind": "carrier_pop",
       "lat": 43.615,
       "lon": -116.2023,
-      "description": "Lumen 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
+      "description": "Carrier 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
       "tier_role": "transit",
       "included": true
     },
     {
-      "id": "lumen_pop_missoula_mt",
+      "id": "carrier_pop_missoula_mt",
       "name": "Missoula, MT",
-      "category": "Lumen 400G PoPs",
-      "kind": "lumen_pop",
+      "category": "Carrier 400G PoPs",
+      "kind": "carrier_pop",
       "lat": 46.8721,
       "lon": -113.9966,
-      "description": "Lumen 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
+      "description": "Carrier 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
       "tier_role": "transit",
       "included": true
     },
     {
-      "id": "lumen_pop_sacramento_ca",
+      "id": "carrier_pop_sacramento_ca",
       "name": "Sacramento, CA",
-      "category": "Lumen 400G PoPs",
-      "kind": "lumen_pop",
+      "category": "Carrier 400G PoPs",
+      "kind": "carrier_pop",
       "lat": 38.5816,
       "lon": -121.4944,
-      "description": "Lumen 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
+      "description": "Carrier 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
       "tier_role": "aggregation",
       "included": true
     },
     {
-      "id": "lumen_pop_modesto_ca",
+      "id": "carrier_pop_modesto_ca",
       "name": "Modesto, CA",
-      "category": "Lumen 400G PoPs",
-      "kind": "lumen_pop",
+      "category": "Carrier 400G PoPs",
+      "kind": "carrier_pop",
       "lat": 37.6391,
       "lon": -120.9969,
-      "description": "Lumen 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
+      "description": "Carrier 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
       "tier_role": "unused",
       "included": false
     },
     {
-      "id": "lumen_pop_mclean_va",
+      "id": "carrier_pop_mclean_va",
       "name": "McLean, VA",
-      "category": "Lumen 400G PoPs",
-      "kind": "lumen_pop",
+      "category": "Carrier 400G PoPs",
+      "kind": "carrier_pop",
       "lat": 38.9339,
       "lon": -77.1773,
-      "description": "Lumen 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
+      "description": "Carrier 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
       "tier_role": "aggregation",
       "included": true
     },
     {
-      "id": "lumen_pop_new_york_ny",
+      "id": "carrier_pop_new_york_ny",
       "name": "New York, NY",
-      "category": "Lumen 400G PoPs",
-      "kind": "lumen_pop",
+      "category": "Carrier 400G PoPs",
+      "kind": "carrier_pop",
       "lat": 40.7128,
       "lon": -74.006,
-      "description": "Lumen 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
+      "description": "Carrier 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
       "tier_role": "transit",
       "included": true
     },
     {
-      "id": "lumen_pop_stamford_ct",
+      "id": "carrier_pop_stamford_ct",
       "name": "Stamford, CT",
-      "category": "Lumen 400G PoPs",
-      "kind": "lumen_pop",
+      "category": "Carrier 400G PoPs",
+      "kind": "carrier_pop",
       "lat": 41.0534,
       "lon": -73.5387,
-      "description": "Lumen 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
+      "description": "Carrier 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
       "tier_role": "aggregation",
       "included": true
     },
     {
-      "id": "lumen_pop_philadelphia_pa",
+      "id": "carrier_pop_philadelphia_pa",
       "name": "Philadelphia, PA",
-      "category": "Lumen 400G PoPs",
-      "kind": "lumen_pop",
+      "category": "Carrier 400G PoPs",
+      "kind": "carrier_pop",
       "lat": 39.9526,
       "lon": -75.1652,
-      "description": "Lumen 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
+      "description": "Carrier 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
       "tier_role": "transit",
       "included": true
     },
     {
-      "id": "lumen_pop_wall_nj",
+      "id": "carrier_pop_wall_nj",
       "name": "Wall, NJ",
-      "category": "Lumen 400G PoPs",
-      "kind": "lumen_pop",
+      "category": "Carrier 400G PoPs",
+      "kind": "carrier_pop",
       "lat": 40.1654,
       "lon": -74.0665,
-      "description": "Lumen 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
+      "description": "Carrier 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
       "tier_role": "unused",
       "included": false
     },
     {
-      "id": "lumen_pop_tuckerton_nj",
+      "id": "carrier_pop_tuckerton_nj",
       "name": "Tuckerton, NJ",
-      "category": "Lumen 400G PoPs",
-      "kind": "lumen_pop",
+      "category": "Carrier 400G PoPs",
+      "kind": "carrier_pop",
       "lat": 39.6032,
       "lon": -74.3402,
-      "description": "Lumen 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
+      "description": "Carrier 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
       "tier_role": "unused",
       "included": false
     },
     {
-      "id": "lumen_pop_ashburn_va",
+      "id": "carrier_pop_ashburn_va",
       "name": "Ashburn, VA",
-      "category": "Lumen 400G PoPs",
-      "kind": "lumen_pop",
+      "category": "Carrier 400G PoPs",
+      "kind": "carrier_pop",
       "lat": 39.0438,
       "lon": -77.4875,
-      "description": "Lumen 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
+      "description": "Carrier 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
       "tier_role": "aggregation",
       "included": true
     },
     {
-      "id": "lumen_pop_baltimore_md",
+      "id": "carrier_pop_baltimore_md",
       "name": "Baltimore, MD",
-      "category": "Lumen 400G PoPs",
-      "kind": "lumen_pop",
+      "category": "Carrier 400G PoPs",
+      "kind": "carrier_pop",
       "lat": 39.2904,
       "lon": -76.6122,
-      "description": "Lumen 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
+      "description": "Carrier 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
       "tier_role": "aggregation",
       "included": true
     },
     {
-      "id": "lumen_pop_boston_ma",
+      "id": "carrier_pop_boston_ma",
       "name": "Boston, MA",
-      "category": "Lumen 400G PoPs",
-      "kind": "lumen_pop",
+      "category": "Carrier 400G PoPs",
+      "kind": "carrier_pop",
       "lat": 42.3601,
       "lon": -71.0589,
-      "description": "Lumen 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
+      "description": "Carrier 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
       "tier_role": "unused",
       "included": false
     },
     {
-      "id": "lumen_pop_san_luis_obispo_ca",
+      "id": "carrier_pop_san_luis_obispo_ca",
       "name": "San Luis Obispo, CA",
-      "category": "Lumen 400G PoPs",
-      "kind": "lumen_pop",
+      "category": "Carrier 400G PoPs",
+      "kind": "carrier_pop",
       "lat": 35.2828,
       "lon": -120.6596,
-      "description": "Lumen 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
+      "description": "Carrier 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
       "tier_role": "aggregation",
       "included": true
     },
     {
-      "id": "lumen_pop_los_angeles_ca",
+      "id": "carrier_pop_los_angeles_ca",
       "name": "Los Angeles, CA",
-      "category": "Lumen 400G PoPs",
-      "kind": "lumen_pop",
+      "category": "Carrier 400G PoPs",
+      "kind": "carrier_pop",
       "lat": 34.0522,
       "lon": -118.2437,
-      "description": "Lumen 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
+      "description": "Carrier 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
       "tier_role": "aggregation",
       "included": true
     },
     {
-      "id": "lumen_pop_san_francisco_ca",
+      "id": "carrier_pop_san_francisco_ca",
       "name": "San Francisco, CA",
-      "category": "Lumen 400G PoPs",
-      "kind": "lumen_pop",
+      "category": "Carrier 400G PoPs",
+      "kind": "carrier_pop",
       "lat": 37.7749,
       "lon": -122.4194,
-      "description": "Lumen 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
+      "description": "Carrier 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
       "tier_role": "aggregation",
       "included": true
     },
     {
-      "id": "lumen_pop_san_jose_ca",
+      "id": "carrier_pop_san_jose_ca",
       "name": "San Jose, CA",
-      "category": "Lumen 400G PoPs",
-      "kind": "lumen_pop",
+      "category": "Carrier 400G PoPs",
+      "kind": "carrier_pop",
       "lat": 37.3382,
       "lon": -121.8863,
-      "description": "Lumen 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
+      "description": "Carrier 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
       "tier_role": "aggregation",
       "included": true
     },
     {
-      "id": "lumen_pop_sunnyvale_ca",
+      "id": "carrier_pop_sunnyvale_ca",
       "name": "Sunnyvale, CA",
-      "category": "Lumen 400G PoPs",
-      "kind": "lumen_pop",
+      "category": "Carrier 400G PoPs",
+      "kind": "carrier_pop",
       "lat": 37.3688,
       "lon": -122.0363,
-      "description": "Lumen 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
+      "description": "Carrier 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
       "tier_role": "transit",
       "included": true
     },
     {
-      "id": "lumen_pop_seattle_wa",
+      "id": "carrier_pop_seattle_wa",
       "name": "Seattle, WA",
-      "category": "Lumen 400G PoPs",
-      "kind": "lumen_pop",
+      "category": "Carrier 400G PoPs",
+      "kind": "carrier_pop",
       "lat": 47.6062,
       "lon": -122.3321,
-      "description": "Lumen 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
+      "description": "Carrier 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
       "tier_role": "aggregation",
       "included": true
     },
     {
-      "id": "lumen_pop_yakima_wa",
+      "id": "carrier_pop_yakima_wa",
       "name": "Yakima, WA",
-      "category": "Lumen 400G PoPs",
-      "kind": "lumen_pop",
+      "category": "Carrier 400G PoPs",
+      "kind": "carrier_pop",
       "lat": 46.6021,
       "lon": -120.5059,
-      "description": "Lumen 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
+      "description": "Carrier 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
       "tier_role": "aggregation",
       "included": true
     },
     {
-      "id": "lumen_pop_portland_or",
+      "id": "carrier_pop_portland_or",
       "name": "Portland, OR",
-      "category": "Lumen 400G PoPs",
-      "kind": "lumen_pop",
+      "category": "Carrier 400G PoPs",
+      "kind": "carrier_pop",
       "lat": 45.5152,
       "lon": -122.6765,
-      "description": "Lumen 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
+      "description": "Carrier 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
       "tier_role": "transit",
       "included": true
     },
     {
-      "id": "lumen_pop_bandon_or",
+      "id": "carrier_pop_bandon_or",
       "name": "Bandon, OR",
-      "category": "Lumen 400G PoPs",
-      "kind": "lumen_pop",
+      "category": "Carrier 400G PoPs",
+      "kind": "carrier_pop",
       "lat": 43.119,
       "lon": -124.4098,
-      "description": "Lumen 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
+      "description": "Carrier 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
       "tier_role": "unused",
       "included": false
     },
     {
-      "id": "lumen_pop_salt_lake_city_ut",
+      "id": "carrier_pop_salt_lake_city_ut",
       "name": "Salt Lake City, UT",
-      "category": "Lumen 400G PoPs",
-      "kind": "lumen_pop",
+      "category": "Carrier 400G PoPs",
+      "kind": "carrier_pop",
       "lat": 40.7608,
       "lon": -111.891,
-      "description": "Lumen 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
+      "description": "Carrier 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
       "tier_role": "aggregation",
       "included": true
     },
     {
-      "id": "lumen_pop_ogden_ut",
+      "id": "carrier_pop_ogden_ut",
       "name": "Ogden, UT",
-      "category": "Lumen 400G PoPs",
-      "kind": "lumen_pop",
+      "category": "Carrier 400G PoPs",
+      "kind": "carrier_pop",
       "lat": 41.223,
       "lon": -111.9738,
-      "description": "Lumen 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
+      "description": "Carrier 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
       "tier_role": "aggregation",
       "included": true
     },
     {
-      "id": "lumen_pop_el_paso_tx",
+      "id": "carrier_pop_el_paso_tx",
       "name": "El Paso, TX",
-      "category": "Lumen 400G PoPs",
-      "kind": "lumen_pop",
+      "category": "Carrier 400G PoPs",
+      "kind": "carrier_pop",
       "lat": 31.7619,
       "lon": -106.485,
-      "description": "Lumen 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
+      "description": "Carrier 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
       "tier_role": "transit",
       "included": true
     },
     {
-      "id": "lumen_pop_albuquerque_nm",
+      "id": "carrier_pop_albuquerque_nm",
       "name": "Albuquerque, NM",
-      "category": "Lumen 400G PoPs",
-      "kind": "lumen_pop",
+      "category": "Carrier 400G PoPs",
+      "kind": "carrier_pop",
       "lat": 35.0844,
       "lon": -106.6504,
-      "description": "Lumen 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
+      "description": "Carrier 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
       "tier_role": "core",
       "included": true
     },
     {
-      "id": "lumen_pop_las_vegas_nv",
+      "id": "carrier_pop_las_vegas_nv",
       "name": "Las Vegas, NV",
-      "category": "Lumen 400G PoPs",
-      "kind": "lumen_pop",
+      "category": "Carrier 400G PoPs",
+      "kind": "carrier_pop",
       "lat": 36.1699,
       "lon": -115.1398,
-      "description": "Lumen 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
+      "description": "Carrier 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
       "tier_role": "aggregation",
       "included": true
     },
     {
-      "id": "lumen_pop_san_bernadino_ca",
+      "id": "carrier_pop_san_bernadino_ca",
       "name": "San Bernadino, CA",
-      "category": "Lumen 400G PoPs",
-      "kind": "lumen_pop",
+      "category": "Carrier 400G PoPs",
+      "kind": "carrier_pop",
       "lat": 34.1083,
       "lon": -117.2898,
-      "description": "Lumen 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
+      "description": "Carrier 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
       "tier_role": "aggregation",
       "included": true
     },
     {
-      "id": "lumen_pop_san_diego_ca",
+      "id": "carrier_pop_san_diego_ca",
       "name": "San Diego, CA",
-      "category": "Lumen 400G PoPs",
-      "kind": "lumen_pop",
+      "category": "Carrier 400G PoPs",
+      "kind": "carrier_pop",
       "lat": 32.7157,
       "lon": -117.1611,
-      "description": "Lumen 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
+      "description": "Carrier 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
       "tier_role": "aggregation",
       "included": true
     },
     {
-      "id": "lumen_pop_tustin_ca",
+      "id": "carrier_pop_tustin_ca",
       "name": "Tustin, CA",
-      "category": "Lumen 400G PoPs",
-      "kind": "lumen_pop",
+      "category": "Carrier 400G PoPs",
+      "kind": "carrier_pop",
       "lat": 33.7459,
       "lon": -117.8265,
-      "description": "Lumen 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
+      "description": "Carrier 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
       "tier_role": "transit",
       "included": true
     },
     {
-      "id": "lumen_pop_riverside_ca",
+      "id": "carrier_pop_riverside_ca",
       "name": "Riverside, CA",
-      "category": "Lumen 400G PoPs",
-      "kind": "lumen_pop",
+      "category": "Carrier 400G PoPs",
+      "kind": "carrier_pop",
       "lat": 33.9533,
       "lon": -117.3962,
-      "description": "Lumen 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
+      "description": "Carrier 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
       "tier_role": "aggregation",
       "included": true
     },
     {
-      "id": "lumen_pop_phoenix_az",
+      "id": "carrier_pop_phoenix_az",
       "name": "Phoenix, AZ",
-      "category": "Lumen 400G PoPs",
-      "kind": "lumen_pop",
+      "category": "Carrier 400G PoPs",
+      "kind": "carrier_pop",
       "lat": 33.4484,
       "lon": -112.074,
-      "description": "Lumen 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
+      "description": "Carrier 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
       "tier_role": "aggregation",
       "included": true
     },
     {
-      "id": "lumen_pop_tucson_az",
+      "id": "carrier_pop_tucson_az",
       "name": "Tucson, AZ",
-      "category": "Lumen 400G PoPs",
-      "kind": "lumen_pop",
+      "category": "Carrier 400G PoPs",
+      "kind": "carrier_pop",
       "lat": 32.2226,
       "lon": -110.9747,
-      "description": "Lumen 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
+      "description": "Carrier 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
       "tier_role": "aggregation",
       "included": true
     },
     {
-      "id": "lumen_pop_cheyenne_wy",
+      "id": "carrier_pop_cheyenne_wy",
       "name": "Cheyenne, WY",
-      "category": "Lumen 400G PoPs",
-      "kind": "lumen_pop",
+      "category": "Carrier 400G PoPs",
+      "kind": "carrier_pop",
       "lat": 41.14,
       "lon": -104.8202,
-      "description": "Lumen 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
+      "description": "Carrier 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
       "tier_role": "aggregation",
       "included": true
     },
     {
-      "id": "lumen_pop_denver_co",
+      "id": "carrier_pop_denver_co",
       "name": "Denver, CO",
-      "category": "Lumen 400G PoPs",
-      "kind": "lumen_pop",
+      "category": "Carrier 400G PoPs",
+      "kind": "carrier_pop",
       "lat": 39.7392,
       "lon": -104.9903,
-      "description": "Lumen 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
+      "description": "Carrier 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
       "tier_role": "aggregation",
       "included": true
     },
     {
-      "id": "lumen_pop_fort_worth_tx",
+      "id": "carrier_pop_fort_worth_tx",
       "name": "Fort Worth, TX",
-      "category": "Lumen 400G PoPs",
-      "kind": "lumen_pop",
+      "category": "Carrier 400G PoPs",
+      "kind": "carrier_pop",
       "lat": 32.7555,
       "lon": -97.3308,
-      "description": "Lumen 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
+      "description": "Carrier 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
       "tier_role": "aggregation",
       "included": true
     },
     {
-      "id": "lumen_pop_san_antonio_tx",
+      "id": "carrier_pop_san_antonio_tx",
       "name": "San Antonio, TX",
-      "category": "Lumen 400G PoPs",
-      "kind": "lumen_pop",
+      "category": "Carrier 400G PoPs",
+      "kind": "carrier_pop",
       "lat": 29.4241,
       "lon": -98.4936,
-      "description": "Lumen 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
+      "description": "Carrier 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
       "tier_role": "aggregation",
       "included": true
     },
     {
-      "id": "lumen_pop_laredo_tx",
+      "id": "carrier_pop_laredo_tx",
       "name": "Laredo, TX",
-      "category": "Lumen 400G PoPs",
-      "kind": "lumen_pop",
+      "category": "Carrier 400G PoPs",
+      "kind": "carrier_pop",
       "lat": 27.5306,
       "lon": -99.5075,
-      "description": "Lumen 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
+      "description": "Carrier 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
       "tier_role": "unused",
       "included": false
     },
     {
-      "id": "lumen_pop_mcallen_tx",
+      "id": "carrier_pop_mcallen_tx",
       "name": "McAllen, TX",
-      "category": "Lumen 400G PoPs",
-      "kind": "lumen_pop",
+      "category": "Carrier 400G PoPs",
+      "kind": "carrier_pop",
       "lat": 26.2034,
       "lon": -98.23,
-      "description": "Lumen 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
+      "description": "Carrier 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
       "tier_role": "unused",
       "included": false
     },
     {
-      "id": "lumen_pop_corpus_christi_tx",
+      "id": "carrier_pop_corpus_christi_tx",
       "name": "Corpus Christi, TX",
-      "category": "Lumen 400G PoPs",
-      "kind": "lumen_pop",
+      "category": "Carrier 400G PoPs",
+      "kind": "carrier_pop",
       "lat": 27.8006,
       "lon": -97.3964,
-      "description": "Lumen 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
+      "description": "Carrier 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
       "tier_role": "unused",
       "included": false
     },
     {
-      "id": "lumen_pop_harlingen_tx",
+      "id": "carrier_pop_harlingen_tx",
       "name": "Harlingen, TX",
-      "category": "Lumen 400G PoPs",
-      "kind": "lumen_pop",
+      "category": "Carrier 400G PoPs",
+      "kind": "carrier_pop",
       "lat": 26.1906,
       "lon": -97.6961,
-      "description": "Lumen 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
+      "description": "Carrier 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
       "tier_role": "unused",
       "included": false
     },
     {
-      "id": "lumen_pop_austin_tx",
+      "id": "carrier_pop_austin_tx",
       "name": "Austin, TX",
-      "category": "Lumen 400G PoPs",
-      "kind": "lumen_pop",
+      "category": "Carrier 400G PoPs",
+      "kind": "carrier_pop",
       "lat": 30.2672,
       "lon": -97.7431,
-      "description": "Lumen 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
+      "description": "Carrier 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
       "tier_role": "aggregation",
       "included": true
     },
     {
-      "id": "lumen_pop_reno_nv",
+      "id": "carrier_pop_reno_nv",
       "name": "Reno, NV",
-      "category": "Lumen 400G PoPs",
-      "kind": "lumen_pop",
+      "category": "Carrier 400G PoPs",
+      "kind": "carrier_pop",
       "lat": 39.5296,
       "lon": -119.8138,
-      "description": "Lumen 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
+      "description": "Carrier 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
       "tier_role": "aggregation",
       "included": true
     },
     {
-      "id": "lumen_pop_minneapolis_mn",
+      "id": "carrier_pop_minneapolis_mn",
       "name": "Minneapolis, MN",
-      "category": "Lumen 400G PoPs",
-      "kind": "lumen_pop",
+      "category": "Carrier 400G PoPs",
+      "kind": "carrier_pop",
       "lat": 44.9778,
       "lon": -93.265,
-      "description": "Lumen 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
+      "description": "Carrier 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
       "tier_role": "transit",
       "included": true
     },
     {
-      "id": "lumen_pop_des_moines_ia",
+      "id": "carrier_pop_des_moines_ia",
       "name": "Des Moines, IA",
-      "category": "Lumen 400G PoPs",
-      "kind": "lumen_pop",
+      "category": "Carrier 400G PoPs",
+      "kind": "carrier_pop",
       "lat": 41.5868,
       "lon": -93.6091,
-      "description": "Lumen 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
+      "description": "Carrier 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
       "tier_role": "core",
       "included": true
     },
     {
-      "id": "lumen_pop_davenport_ia",
+      "id": "carrier_pop_davenport_ia",
       "name": "Davenport, IA",
-      "category": "Lumen 400G PoPs",
-      "kind": "lumen_pop",
+      "category": "Carrier 400G PoPs",
+      "kind": "carrier_pop",
       "lat": 41.5236,
       "lon": -90.5776,
-      "description": "Lumen 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
+      "description": "Carrier 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
       "tier_role": "transit",
       "included": true
     },
     {
-      "id": "lumen_pop_omaha_ne",
+      "id": "carrier_pop_omaha_ne",
       "name": "Omaha, NE",
-      "category": "Lumen 400G PoPs",
-      "kind": "lumen_pop",
+      "category": "Carrier 400G PoPs",
+      "kind": "carrier_pop",
       "lat": 41.2565,
       "lon": -95.9345,
-      "description": "Lumen 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
+      "description": "Carrier 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
       "tier_role": "aggregation",
       "included": true
     },
     {
-      "id": "lumen_pop_kansas_city_mo",
+      "id": "carrier_pop_kansas_city_mo",
       "name": "Kansas City, MO",
-      "category": "Lumen 400G PoPs",
-      "kind": "lumen_pop",
+      "category": "Carrier 400G PoPs",
+      "kind": "carrier_pop",
       "lat": 39.0997,
       "lon": -94.5786,
-      "description": "Lumen 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
+      "description": "Carrier 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
       "tier_role": "transit",
       "included": true
     },
     {
-      "id": "lumen_pop_st_louis_mo",
+      "id": "carrier_pop_st_louis_mo",
       "name": "St. Louis, MO",
-      "category": "Lumen 400G PoPs",
-      "kind": "lumen_pop",
+      "category": "Carrier 400G PoPs",
+      "kind": "carrier_pop",
       "lat": 38.627,
       "lon": -90.1994,
-      "description": "Lumen 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
+      "description": "Carrier 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
       "tier_role": "transit",
       "included": true
     },
     {
-      "id": "lumen_pop_tulsa_ok",
+      "id": "carrier_pop_tulsa_ok",
       "name": "Tulsa, OK",
-      "category": "Lumen 400G PoPs",
-      "kind": "lumen_pop",
+      "category": "Carrier 400G PoPs",
+      "kind": "carrier_pop",
       "lat": 36.154,
       "lon": -95.9928,
-      "description": "Lumen 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
+      "description": "Carrier 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
       "tier_role": "aggregation",
       "included": true
     },
     {
-      "id": "lumen_pop_oklahoma_city_ok",
+      "id": "carrier_pop_oklahoma_city_ok",
       "name": "Oklahoma City, OK",
-      "category": "Lumen 400G PoPs",
-      "kind": "lumen_pop",
+      "category": "Carrier 400G PoPs",
+      "kind": "carrier_pop",
       "lat": 35.4676,
       "lon": -97.5164,
-      "description": "Lumen 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
+      "description": "Carrier 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
       "tier_role": "unused",
       "included": false
     },
     {
-      "id": "lumen_pop_stratford_tx",
+      "id": "carrier_pop_stratford_tx",
       "name": "Stratford, TX",
-      "category": "Lumen 400G PoPs",
-      "kind": "lumen_pop",
+      "category": "Carrier 400G PoPs",
+      "kind": "carrier_pop",
       "lat": 36.3361,
       "lon": -102.0721,
-      "description": "Lumen 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
+      "description": "Carrier 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
       "tier_role": "unused",
       "included": false
     },
     {
-      "id": "lumen_pop_houston_tx",
+      "id": "carrier_pop_houston_tx",
       "name": "Houston, TX",
-      "category": "Lumen 400G PoPs",
-      "kind": "lumen_pop",
+      "category": "Carrier 400G PoPs",
+      "kind": "carrier_pop",
       "lat": 29.7604,
       "lon": -95.3698,
-      "description": "Lumen 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
+      "description": "Carrier 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
       "tier_role": "core",
       "included": true
     },
     {
-      "id": "lumen_pop_birmingham_al",
+      "id": "carrier_pop_birmingham_al",
       "name": "Birmingham, AL",
-      "category": "Lumen 400G PoPs",
-      "kind": "lumen_pop",
+      "category": "Carrier 400G PoPs",
+      "kind": "carrier_pop",
       "lat": 33.5186,
       "lon": -86.8025,
-      "description": "Lumen 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
+      "description": "Carrier 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
       "tier_role": "unused",
       "included": false
     },
     {
-      "id": "lumen_pop_billingsley_al",
+      "id": "carrier_pop_billingsley_al",
       "name": "Billingsley, AL",
-      "category": "Lumen 400G PoPs",
-      "kind": "lumen_pop",
+      "category": "Carrier 400G PoPs",
+      "kind": "carrier_pop",
       "lat": 32.6601,
       "lon": -86.7114,
-      "description": "Lumen 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
+      "description": "Carrier 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
       "tier_role": "aggregation",
       "included": true
     },
     {
-      "id": "lumen_pop_memphis_tn",
+      "id": "carrier_pop_memphis_tn",
       "name": "Memphis, TN",
-      "category": "Lumen 400G PoPs",
-      "kind": "lumen_pop",
+      "category": "Carrier 400G PoPs",
+      "kind": "carrier_pop",
       "lat": 35.1495,
       "lon": -90.049,
-      "description": "Lumen 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
+      "description": "Carrier 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
       "tier_role": "unused",
       "included": false
     },
     {
-      "id": "lumen_pop_chicago_il",
+      "id": "carrier_pop_chicago_il",
       "name": "Chicago, IL",
-      "category": "Lumen 400G PoPs",
-      "kind": "lumen_pop",
+      "category": "Carrier 400G PoPs",
+      "kind": "carrier_pop",
       "lat": 41.8781,
       "lon": -87.6298,
-      "description": "Lumen 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
+      "description": "Carrier 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
       "tier_role": "transit",
       "included": true
     },
     {
-      "id": "lumen_pop_indianapolis_in",
+      "id": "carrier_pop_indianapolis_in",
       "name": "Indianapolis, IN",
-      "category": "Lumen 400G PoPs",
-      "kind": "lumen_pop",
+      "category": "Carrier 400G PoPs",
+      "kind": "carrier_pop",
       "lat": 39.7684,
       "lon": -86.1581,
-      "description": "Lumen 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
+      "description": "Carrier 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
       "tier_role": "aggregation",
       "included": true
     },
     {
-      "id": "lumen_pop_nashville_tn",
+      "id": "carrier_pop_nashville_tn",
       "name": "Nashville, TN",
-      "category": "Lumen 400G PoPs",
-      "kind": "lumen_pop",
+      "category": "Carrier 400G PoPs",
+      "kind": "carrier_pop",
       "lat": 36.1627,
       "lon": -86.7816,
-      "description": "Lumen 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
+      "description": "Carrier 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
       "tier_role": "transit",
       "included": true
     },
     {
-      "id": "lumen_pop_madison_wi",
+      "id": "carrier_pop_madison_wi",
       "name": "Madison, WI",
-      "category": "Lumen 400G PoPs",
-      "kind": "lumen_pop",
+      "category": "Carrier 400G PoPs",
+      "kind": "carrier_pop",
       "lat": 43.0731,
       "lon": -89.4012,
-      "description": "Lumen 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
+      "description": "Carrier 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
       "tier_role": "aggregation",
       "included": true
     },
     {
-      "id": "lumen_pop_milwaukee_wi",
+      "id": "carrier_pop_milwaukee_wi",
       "name": "Milwaukee, WI",
-      "category": "Lumen 400G PoPs",
-      "kind": "lumen_pop",
+      "category": "Carrier 400G PoPs",
+      "kind": "carrier_pop",
       "lat": 43.0389,
       "lon": -87.9065,
-      "description": "Lumen 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
+      "description": "Carrier 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
       "tier_role": "aggregation",
       "included": true
     },
     {
-      "id": "lumen_pop_jacksonville_fl",
+      "id": "carrier_pop_jacksonville_fl",
       "name": "Jacksonville, FL",
-      "category": "Lumen 400G PoPs",
-      "kind": "lumen_pop",
+      "category": "Carrier 400G PoPs",
+      "kind": "carrier_pop",
       "lat": 30.3322,
       "lon": -81.6557,
-      "description": "Lumen 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
+      "description": "Carrier 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
       "tier_role": "aggregation",
       "included": true
     },
     {
-      "id": "lumen_pop_tallahassee_fl",
+      "id": "carrier_pop_tallahassee_fl",
       "name": "Tallahassee, FL",
-      "category": "Lumen 400G PoPs",
-      "kind": "lumen_pop",
+      "category": "Carrier 400G PoPs",
+      "kind": "carrier_pop",
       "lat": 30.4383,
       "lon": -84.2807,
-      "description": "Lumen 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
+      "description": "Carrier 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
       "tier_role": "aggregation",
       "included": true
     },
     {
-      "id": "lumen_pop_orlando_fl",
+      "id": "carrier_pop_orlando_fl",
       "name": "Orlando, FL",
-      "category": "Lumen 400G PoPs",
-      "kind": "lumen_pop",
+      "category": "Carrier 400G PoPs",
+      "kind": "carrier_pop",
       "lat": 28.5383,
       "lon": -81.3792,
-      "description": "Lumen 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
+      "description": "Carrier 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
       "tier_role": "unused",
       "included": false
     },
     {
-      "id": "lumen_pop_miami_fl",
+      "id": "carrier_pop_miami_fl",
       "name": "Miami, FL",
-      "category": "Lumen 400G PoPs",
-      "kind": "lumen_pop",
+      "category": "Carrier 400G PoPs",
+      "kind": "carrier_pop",
       "lat": 25.7617,
       "lon": -80.1918,
-      "description": "Lumen 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
+      "description": "Carrier 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
       "tier_role": "unused",
       "included": false
     },
     {
-      "id": "lumen_pop_tampa_fl",
+      "id": "carrier_pop_tampa_fl",
       "name": "Tampa, FL",
-      "category": "Lumen 400G PoPs",
-      "kind": "lumen_pop",
+      "category": "Carrier 400G PoPs",
+      "kind": "carrier_pop",
       "lat": 27.9506,
       "lon": -82.4572,
-      "description": "Lumen 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
+      "description": "Carrier 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
       "tier_role": "unused",
       "included": false
     },
     {
-      "id": "lumen_pop_fort_meyers_fl",
+      "id": "carrier_pop_fort_meyers_fl",
       "name": "Fort Meyers, FL",
-      "category": "Lumen 400G PoPs",
-      "kind": "lumen_pop",
+      "category": "Carrier 400G PoPs",
+      "kind": "carrier_pop",
       "lat": 26.6406,
       "lon": -81.8723,
-      "description": "Lumen 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
+      "description": "Carrier 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
       "tier_role": "unused",
       "included": false
     },
     {
-      "id": "lumen_pop_atlanta_ga",
+      "id": "carrier_pop_atlanta_ga",
       "name": "Atlanta, GA",
-      "category": "Lumen 400G PoPs",
-      "kind": "lumen_pop",
+      "category": "Carrier 400G PoPs",
+      "kind": "carrier_pop",
       "lat": 33.749,
       "lon": -84.388,
-      "description": "Lumen 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
+      "description": "Carrier 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
       "tier_role": "aggregation",
       "included": true
     },
     {
-      "id": "lumen_pop_augusta_ga",
+      "id": "carrier_pop_augusta_ga",
       "name": "Augusta, GA",
-      "category": "Lumen 400G PoPs",
-      "kind": "lumen_pop",
+      "category": "Carrier 400G PoPs",
+      "kind": "carrier_pop",
       "lat": 33.4735,
       "lon": -81.9748,
-      "description": "Lumen 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
+      "description": "Carrier 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
       "tier_role": "transit",
       "included": true
     },
     {
-      "id": "lumen_pop_charlotte_nc",
+      "id": "carrier_pop_charlotte_nc",
       "name": "Charlotte, NC",
-      "category": "Lumen 400G PoPs",
-      "kind": "lumen_pop",
+      "category": "Carrier 400G PoPs",
+      "kind": "carrier_pop",
       "lat": 35.2271,
       "lon": -80.8431,
-      "description": "Lumen 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
+      "description": "Carrier 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
       "tier_role": "aggregation",
       "included": true
     },
     {
-      "id": "lumen_pop_richmond_va",
+      "id": "carrier_pop_richmond_va",
       "name": "Richmond, VA",
-      "category": "Lumen 400G PoPs",
-      "kind": "lumen_pop",
+      "category": "Carrier 400G PoPs",
+      "kind": "carrier_pop",
       "lat": 37.5407,
       "lon": -77.436,
-      "description": "Lumen 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
+      "description": "Carrier 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
       "tier_role": "transit",
       "included": true
     },
     {
-      "id": "lumen_pop_norfolk_va",
+      "id": "carrier_pop_norfolk_va",
       "name": "Norfolk, VA",
-      "category": "Lumen 400G PoPs",
-      "kind": "lumen_pop",
+      "category": "Carrier 400G PoPs",
+      "kind": "carrier_pop",
       "lat": 36.8508,
       "lon": -76.2859,
-      "description": "Lumen 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
+      "description": "Carrier 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
       "tier_role": "unused",
       "included": false
     },
     {
-      "id": "lumen_pop_raleigh_nc",
+      "id": "carrier_pop_raleigh_nc",
       "name": "Raleigh, NC",
-      "category": "Lumen 400G PoPs",
-      "kind": "lumen_pop",
+      "category": "Carrier 400G PoPs",
+      "kind": "carrier_pop",
       "lat": 35.7796,
       "lon": -78.6382,
-      "description": "Lumen 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
+      "description": "Carrier 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
       "tier_role": "aggregation",
       "included": true
     },
     {
-      "id": "lumen_pop_cleveland_oh",
+      "id": "carrier_pop_cleveland_oh",
       "name": "Cleveland, OH",
-      "category": "Lumen 400G PoPs",
-      "kind": "lumen_pop",
+      "category": "Carrier 400G PoPs",
+      "kind": "carrier_pop",
       "lat": 41.4993,
       "lon": -81.6944,
-      "description": "Lumen 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
+      "description": "Carrier 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
       "tier_role": "transit",
       "included": true
     },
     {
-      "id": "lumen_pop_akron_oh",
+      "id": "carrier_pop_akron_oh",
       "name": "Akron, OH",
-      "category": "Lumen 400G PoPs",
-      "kind": "lumen_pop",
+      "category": "Carrier 400G PoPs",
+      "kind": "carrier_pop",
       "lat": 41.0814,
       "lon": -81.519,
-      "description": "Lumen 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
+      "description": "Carrier 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
       "tier_role": "transit",
       "included": true
     },
     {
-      "id": "lumen_pop_detroit_mi",
+      "id": "carrier_pop_detroit_mi",
       "name": "Detroit, MI",
-      "category": "Lumen 400G PoPs",
-      "kind": "lumen_pop",
+      "category": "Carrier 400G PoPs",
+      "kind": "carrier_pop",
       "lat": 42.3314,
       "lon": -83.0458,
-      "description": "Lumen 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
+      "description": "Carrier 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
       "tier_role": "unused",
       "included": false
     },
     {
-      "id": "lumen_pop_toledo_oh",
+      "id": "carrier_pop_toledo_oh",
       "name": "Toledo, OH",
-      "category": "Lumen 400G PoPs",
-      "kind": "lumen_pop",
+      "category": "Carrier 400G PoPs",
+      "kind": "carrier_pop",
       "lat": 41.6528,
       "lon": -83.5552,
-      "description": "Lumen 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
+      "description": "Carrier 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
       "tier_role": "transit",
       "included": true
     },
     {
-      "id": "lumen_pop_cincinnati_oh",
+      "id": "carrier_pop_cincinnati_oh",
       "name": "Cincinnati, OH",
-      "category": "Lumen 400G PoPs",
-      "kind": "lumen_pop",
+      "category": "Carrier 400G PoPs",
+      "kind": "carrier_pop",
       "lat": 39.1031,
       "lon": -84.512,
-      "description": "Lumen 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
+      "description": "Carrier 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
       "tier_role": "transit",
       "included": true
     },
     {
-      "id": "lumen_pop_columbus_oh",
+      "id": "carrier_pop_columbus_oh",
       "name": "Columbus, OH",
-      "category": "Lumen 400G PoPs",
-      "kind": "lumen_pop",
+      "category": "Carrier 400G PoPs",
+      "kind": "carrier_pop",
       "lat": 39.9612,
       "lon": -82.9988,
-      "description": "Lumen 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
+      "description": "Carrier 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
       "tier_role": "aggregation",
       "included": true
     },
     {
-      "id": "lumen_pop_buffalo_ny",
+      "id": "carrier_pop_buffalo_ny",
       "name": "Buffalo, NY",
-      "category": "Lumen 400G PoPs",
-      "kind": "lumen_pop",
+      "category": "Carrier 400G PoPs",
+      "kind": "carrier_pop",
       "lat": 42.8864,
       "lon": -78.8784,
-      "description": "Lumen 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
+      "description": "Carrier 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
       "tier_role": "transit",
       "included": true
     },
     {
-      "id": "lumen_pop_pittsburgh_pa",
+      "id": "carrier_pop_pittsburgh_pa",
       "name": "Pittsburgh, PA",
-      "category": "Lumen 400G PoPs",
-      "kind": "lumen_pop",
+      "category": "Carrier 400G PoPs",
+      "kind": "carrier_pop",
       "lat": 40.4406,
       "lon": -79.9959,
-      "description": "Lumen 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
+      "description": "Carrier 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
       "tier_role": "transit",
       "included": true
     },
     {
-      "id": "lumen_pop_albany_ny",
+      "id": "carrier_pop_albany_ny",
       "name": "Albany, NY",
-      "category": "Lumen 400G PoPs",
-      "kind": "lumen_pop",
+      "category": "Carrier 400G PoPs",
+      "kind": "carrier_pop",
       "lat": 42.6526,
       "lon": -73.7562,
-      "description": "Lumen 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
+      "description": "Carrier 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
       "tier_role": "aggregation",
       "included": true
     },
     {
-      "id": "lumen_pop_newark_nj",
+      "id": "carrier_pop_newark_nj",
       "name": "Newark, NJ",
-      "category": "Lumen 400G PoPs",
-      "kind": "lumen_pop",
+      "category": "Carrier 400G PoPs",
+      "kind": "carrier_pop",
       "lat": 40.7357,
       "lon": -74.1724,
-      "description": "Lumen 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
+      "description": "Carrier 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
       "tier_role": "transit",
       "included": true
     },
     {
-      "id": "lumen_pop_dallas_tx",
+      "id": "carrier_pop_dallas_tx",
       "name": "Dallas, TX",
-      "category": "Lumen 400G PoPs",
-      "kind": "lumen_pop",
+      "category": "Carrier 400G PoPs",
+      "kind": "carrier_pop",
       "lat": 32.7767,
       "lon": -96.797,
-      "description": "Lumen 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
+      "description": "Carrier 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
       "tier_role": "aggregation",
       "included": true
     },
     {
-      "id": "lumen_pop_wichita_ks",
+      "id": "carrier_pop_wichita_ks",
       "name": "Wichita, KS",
-      "category": "Lumen 400G PoPs",
-      "kind": "lumen_pop",
+      "category": "Carrier 400G PoPs",
+      "kind": "carrier_pop",
       "lat": 37.6872,
       "lon": -97.3301,
-      "description": "Lumen 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
+      "description": "Carrier 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
       "tier_role": "unused",
       "included": false
     },
     {
-      "id": "lumen_pop_herndon_va",
+      "id": "carrier_pop_herndon_va",
       "name": "Herndon, VA",
-      "category": "Lumen 400G PoPs",
-      "kind": "lumen_pop",
+      "category": "Carrier 400G PoPs",
+      "kind": "carrier_pop",
       "lat": 38.9696,
       "lon": -77.3861,
-      "description": "Lumen 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
+      "description": "Carrier 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
       "tier_role": "aggregation",
       "included": true
     },
     {
-      "id": "lumen_pop_cambridge_ma",
+      "id": "carrier_pop_cambridge_ma",
       "name": "Cambridge, MA",
-      "category": "Lumen 400G PoPs",
-      "kind": "lumen_pop",
+      "category": "Carrier 400G PoPs",
+      "kind": "carrier_pop",
       "lat": 42.3736,
       "lon": -71.1097,
-      "description": "Lumen 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
+      "description": "Carrier 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
       "tier_role": "unused",
       "included": false
     },
     {
-      "id": "lumen_pop_hayward_ca",
+      "id": "carrier_pop_hayward_ca",
       "name": "Hayward, CA",
-      "category": "Lumen 400G PoPs",
-      "kind": "lumen_pop",
+      "category": "Carrier 400G PoPs",
+      "kind": "carrier_pop",
       "lat": 37.6688,
       "lon": -122.0808,
-      "description": "Lumen 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
+      "description": "Carrier 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
       "tier_role": "aggregation",
       "included": true
     },
     {
-      "id": "lumen_pop_emeryville_ca",
+      "id": "carrier_pop_emeryville_ca",
       "name": "Emeryville, CA",
-      "category": "Lumen 400G PoPs",
-      "kind": "lumen_pop",
+      "category": "Carrier 400G PoPs",
+      "kind": "carrier_pop",
       "lat": 37.8313,
       "lon": -122.2852,
-      "description": "Lumen 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
+      "description": "Carrier 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
       "tier_role": "unused",
       "included": false
     },
     {
-      "id": "lumen_pop_goodyear_az",
+      "id": "carrier_pop_goodyear_az",
       "name": "Goodyear, AZ",
-      "category": "Lumen 400G PoPs",
-      "kind": "lumen_pop",
+      "category": "Carrier 400G PoPs",
+      "kind": "carrier_pop",
       "lat": 33.4353,
       "lon": -112.3582,
-      "description": "Lumen 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
+      "description": "Carrier 400G PoP / Next-Gen Optical Network location from uploaded mapbook.",
       "tier_role": "unused",
       "included": false
     }
@@ -1534,7 +1534,7 @@
     {
       "source_id": "csp_secret_aws_secret_east_region",
       "source_name": "AWS Secret East Region",
-      "target_id": "lumen_pop_columbus_oh",
+      "target_id": "carrier_pop_columbus_oh",
       "target_name": "Columbus, OH",
       "edge_kind": "access_to_aggregation",
       "distance_miles": 0.0
@@ -1542,7 +1542,7 @@
     {
       "source_id": "csp_secret_aws_secret_east_region",
       "source_name": "AWS Secret East Region",
-      "target_id": "lumen_pop_indianapolis_in",
+      "target_id": "carrier_pop_indianapolis_in",
       "target_name": "Indianapolis, IN",
       "edge_kind": "access_to_aggregation",
       "distance_miles": 168.068
@@ -1550,7 +1550,7 @@
     {
       "source_id": "csp_secret_aws_secret_west_region",
       "source_name": "AWS Secret West Region",
-      "target_id": "lumen_pop_phoenix_az",
+      "target_id": "carrier_pop_phoenix_az",
       "target_name": "Phoenix, AZ",
       "edge_kind": "access_to_aggregation",
       "distance_miles": 0.0
@@ -1558,7 +1558,7 @@
     {
       "source_id": "csp_secret_aws_secret_west_region",
       "source_name": "AWS Secret West Region",
-      "target_id": "lumen_pop_tucson_az",
+      "target_id": "carrier_pop_tucson_az",
       "target_name": "Tucson, AZ",
       "edge_kind": "access_to_aggregation",
       "distance_miles": 106.046
@@ -1566,7 +1566,7 @@
     {
       "source_id": "csp_secret_azure_secret_east_region",
       "source_name": "Azure Secret East Region",
-      "target_id": "lumen_pop_herndon_va",
+      "target_id": "carrier_pop_herndon_va",
       "target_name": "Herndon, VA",
       "edge_kind": "access_to_aggregation",
       "distance_miles": 15.855
@@ -1574,7 +1574,7 @@
     {
       "source_id": "csp_secret_azure_secret_east_region",
       "source_name": "Azure Secret East Region",
-      "target_id": "lumen_pop_mclean_va",
+      "target_id": "carrier_pop_mclean_va",
       "target_name": "McLean, VA",
       "edge_kind": "access_to_aggregation",
       "distance_miles": 20.422
@@ -1582,7 +1582,7 @@
     {
       "source_id": "csp_secret_azure_secret_west_region",
       "source_name": "Azure Secret West Region",
-      "target_id": "lumen_pop_austin_tx",
+      "target_id": "carrier_pop_austin_tx",
       "target_name": "Austin, TX",
       "edge_kind": "access_to_aggregation",
       "distance_miles": 73.595
@@ -1590,7 +1590,7 @@
     {
       "source_id": "csp_secret_azure_secret_west_region",
       "source_name": "Azure Secret West Region",
-      "target_id": "lumen_pop_san_antonio_tx",
+      "target_id": "carrier_pop_san_antonio_tx",
       "target_name": "San Antonio, TX",
       "edge_kind": "access_to_aggregation",
       "distance_miles": 0.0
@@ -1598,7 +1598,7 @@
     {
       "source_id": "csp_secret_oci_secret_east_region",
       "source_name": "OCI Secret East Region",
-      "target_id": "lumen_pop_ashburn_va",
+      "target_id": "carrier_pop_ashburn_va",
       "target_name": "Ashburn, VA",
       "edge_kind": "access_to_aggregation",
       "distance_miles": 0.005
@@ -1606,7 +1606,7 @@
     {
       "source_id": "csp_secret_oci_secret_east_region",
       "source_name": "OCI Secret East Region",
-      "target_id": "lumen_pop_herndon_va",
+      "target_id": "carrier_pop_herndon_va",
       "target_name": "Herndon, VA",
       "edge_kind": "access_to_aggregation",
       "distance_miles": 7.474
@@ -1614,7 +1614,7 @@
     {
       "source_id": "csp_secret_oci_secret_west_region",
       "source_name": "OCI Secret West Region",
-      "target_id": "lumen_pop_dallas_tx",
+      "target_id": "carrier_pop_dallas_tx",
       "target_name": "Dallas, TX",
       "edge_kind": "access_to_aggregation",
       "distance_miles": 31.048
@@ -1622,7 +1622,7 @@
     {
       "source_id": "csp_secret_oci_secret_west_region",
       "source_name": "OCI Secret West Region",
-      "target_id": "lumen_pop_fort_worth_tx",
+      "target_id": "carrier_pop_fort_worth_tx",
       "target_name": "Fort Worth, TX",
       "edge_kind": "access_to_aggregation",
       "distance_miles": 0.0
@@ -1630,7 +1630,7 @@
     {
       "source_id": "f35_burlington_angb",
       "source_name": "Burlington ANGB",
-      "target_id": "lumen_pop_albany_ny",
+      "target_id": "carrier_pop_albany_ny",
       "target_name": "Albany, NY",
       "edge_kind": "access_to_aggregation",
       "distance_miles": 129.274
@@ -1638,7 +1638,7 @@
     {
       "source_id": "f35_burlington_angb",
       "source_name": "Burlington ANGB",
-      "target_id": "lumen_pop_stamford_ct",
+      "target_id": "carrier_pop_stamford_ct",
       "target_name": "Stamford, CT",
       "edge_kind": "access_to_aggregation",
       "distance_miles": 237.003
@@ -1646,7 +1646,7 @@
     {
       "source_id": "f35_crystal_city_va",
       "source_name": "Crystal City, VA",
-      "target_id": "lumen_pop_herndon_va",
+      "target_id": "carrier_pop_herndon_va",
       "target_name": "Herndon, VA",
       "edge_kind": "access_to_aggregation",
       "distance_miles": 19.68
@@ -1654,7 +1654,7 @@
     {
       "source_id": "f35_crystal_city_va",
       "source_name": "Crystal City, VA",
-      "target_id": "lumen_pop_mclean_va",
+      "target_id": "carrier_pop_mclean_va",
       "target_name": "McLean, VA",
       "edge_kind": "access_to_aggregation",
       "distance_miles": 8.683
@@ -1662,7 +1662,7 @@
     {
       "source_id": "f35_dannelly_field",
       "source_name": "Dannelly Field",
-      "target_id": "lumen_pop_atlanta_ga",
+      "target_id": "carrier_pop_atlanta_ga",
       "target_name": "Atlanta, GA",
       "edge_kind": "access_to_aggregation",
       "distance_miles": 153.349
@@ -1670,7 +1670,7 @@
     {
       "source_id": "f35_dannelly_field",
       "source_name": "Dannelly Field",
-      "target_id": "lumen_pop_billingsley_al",
+      "target_id": "carrier_pop_billingsley_al",
       "target_name": "Billingsley, AL",
       "edge_kind": "access_to_aggregation",
       "distance_miles": 30.975
@@ -1678,7 +1678,7 @@
     {
       "source_id": "f35_ebbing_angb",
       "source_name": "Ebbing ANGB",
-      "target_id": "lumen_pop_dallas_tx",
+      "target_id": "carrier_pop_dallas_tx",
       "target_name": "Dallas, TX",
       "edge_kind": "access_to_aggregation",
       "distance_miles": 224.984
@@ -1686,7 +1686,7 @@
     {
       "source_id": "f35_ebbing_angb",
       "source_name": "Ebbing ANGB",
-      "target_id": "lumen_pop_tulsa_ok",
+      "target_id": "carrier_pop_tulsa_ok",
       "target_name": "Tulsa, OK",
       "edge_kind": "access_to_aggregation",
       "distance_miles": 107.225
@@ -1694,7 +1694,7 @@
     {
       "source_id": "f35_edwards_afb",
       "source_name": "Edwards AFB",
-      "target_id": "lumen_pop_riverside_ca",
+      "target_id": "carrier_pop_riverside_ca",
       "target_name": "Riverside, CA",
       "edge_kind": "access_to_aggregation",
       "distance_miles": 71.41
@@ -1702,7 +1702,7 @@
     {
       "source_id": "f35_edwards_afb",
       "source_name": "Edwards AFB",
-      "target_id": "lumen_pop_san_bernadino_ca",
+      "target_id": "carrier_pop_san_bernadino_ca",
       "target_name": "San Bernadino, CA",
       "edge_kind": "access_to_aggregation",
       "distance_miles": 64.627
@@ -1710,7 +1710,7 @@
     {
       "source_id": "f35_eglin_afb",
       "source_name": "Eglin AFB",
-      "target_id": "lumen_pop_billingsley_al",
+      "target_id": "carrier_pop_billingsley_al",
       "target_name": "Billingsley, AL",
       "edge_kind": "access_to_aggregation",
       "distance_miles": 150.807
@@ -1718,7 +1718,7 @@
     {
       "source_id": "f35_eglin_afb",
       "source_name": "Eglin AFB",
-      "target_id": "lumen_pop_tallahassee_fl",
+      "target_id": "carrier_pop_tallahassee_fl",
       "target_name": "Tallahassee, FL",
       "edge_kind": "access_to_aggregation",
       "distance_miles": 133.721
@@ -1726,7 +1726,7 @@
     {
       "source_id": "f35_eielson_afb",
       "source_name": "Eielson AFB",
-      "target_id": "lumen_pop_seattle_wa",
+      "target_id": "carrier_pop_seattle_wa",
       "target_name": "Seattle, WA",
       "edge_kind": "access_to_aggregation",
       "distance_miles": 1495.827
@@ -1734,7 +1734,7 @@
     {
       "source_id": "f35_eielson_afb",
       "source_name": "Eielson AFB",
-      "target_id": "lumen_pop_yakima_wa",
+      "target_id": "carrier_pop_yakima_wa",
       "target_name": "Yakima, WA",
       "edge_kind": "access_to_aggregation",
       "distance_miles": 1598.24
@@ -1742,7 +1742,7 @@
     {
       "source_id": "f35_hill_afb",
       "source_name": "Hill AFB",
-      "target_id": "lumen_pop_ogden_ut",
+      "target_id": "carrier_pop_ogden_ut",
       "target_name": "Ogden, UT",
       "edge_kind": "access_to_aggregation",
       "distance_miles": 6.84
@@ -1750,7 +1750,7 @@
     {
       "source_id": "f35_hill_afb",
       "source_name": "Hill AFB",
-      "target_id": "lumen_pop_salt_lake_city_ut",
+      "target_id": "carrier_pop_salt_lake_city_ut",
       "target_name": "Salt Lake City, UT",
       "edge_kind": "access_to_aggregation",
       "distance_miles": 25.458
@@ -1758,7 +1758,7 @@
     {
       "source_id": "f35_jacksonville_angb",
       "source_name": "Jacksonville ANGB",
-      "target_id": "lumen_pop_jacksonville_fl",
+      "target_id": "carrier_pop_jacksonville_fl",
       "target_name": "Jacksonville, FL",
       "edge_kind": "access_to_aggregation",
       "distance_miles": 11.35
@@ -1766,7 +1766,7 @@
     {
       "source_id": "f35_jacksonville_angb",
       "source_name": "Jacksonville ANGB",
-      "target_id": "lumen_pop_tallahassee_fl",
+      "target_id": "carrier_pop_tallahassee_fl",
       "target_name": "Tallahassee, FL",
       "edge_kind": "access_to_aggregation",
       "distance_miles": 154.455
@@ -1774,7 +1774,7 @@
     {
       "source_id": "f35_luke_afb",
       "source_name": "Luke AFB",
-      "target_id": "lumen_pop_phoenix_az",
+      "target_id": "carrier_pop_phoenix_az",
       "target_name": "Phoenix, AZ",
       "edge_kind": "access_to_aggregation",
       "distance_miles": 18.784
@@ -1782,7 +1782,7 @@
     {
       "source_id": "f35_luke_afb",
       "source_name": "Luke AFB",
-      "target_id": "lumen_pop_tucson_az",
+      "target_id": "carrier_pop_tucson_az",
       "target_name": "Tucson, AZ",
       "edge_kind": "access_to_aggregation",
       "distance_miles": 122.064
@@ -1790,7 +1790,7 @@
     {
       "source_id": "f35_mcas_beaufort",
       "source_name": "MCAS Beaufort",
-      "target_id": "lumen_pop_atlanta_ga",
+      "target_id": "carrier_pop_atlanta_ga",
       "target_name": "Atlanta, GA",
       "edge_kind": "access_to_aggregation",
       "distance_miles": 229.549
@@ -1798,7 +1798,7 @@
     {
       "source_id": "f35_mcas_beaufort",
       "source_name": "MCAS Beaufort",
-      "target_id": "lumen_pop_jacksonville_fl",
+      "target_id": "carrier_pop_jacksonville_fl",
       "target_name": "Jacksonville, FL",
       "edge_kind": "access_to_aggregation",
       "distance_miles": 158.089
@@ -1806,7 +1806,7 @@
     {
       "source_id": "f35_mcas_cherry_point",
       "source_name": "MCAS Cherry Point",
-      "target_id": "lumen_pop_charlotte_nc",
+      "target_id": "carrier_pop_charlotte_nc",
       "target_name": "Charlotte, NC",
       "edge_kind": "access_to_aggregation",
       "distance_miles": 225.204
@@ -1814,7 +1814,7 @@
     {
       "source_id": "f35_mcas_cherry_point",
       "source_name": "MCAS Cherry Point",
-      "target_id": "lumen_pop_raleigh_nc",
+      "target_id": "carrier_pop_raleigh_nc",
       "target_name": "Raleigh, NC",
       "edge_kind": "access_to_aggregation",
       "distance_miles": 116.178
@@ -1822,7 +1822,7 @@
     {
       "source_id": "f35_mcas_miramar",
       "source_name": "MCAS Miramar",
-      "target_id": "lumen_pop_san_bernadino_ca",
+      "target_id": "carrier_pop_san_bernadino_ca",
       "target_name": "San Bernadino, CA",
       "edge_kind": "access_to_aggregation",
       "distance_miles": 86.182
@@ -1830,7 +1830,7 @@
     {
       "source_id": "f35_mcas_miramar",
       "source_name": "MCAS Miramar",
-      "target_id": "lumen_pop_san_diego_ca",
+      "target_id": "carrier_pop_san_diego_ca",
       "target_name": "San Diego, CA",
       "edge_kind": "access_to_aggregation",
       "distance_miles": 10.521
@@ -1838,7 +1838,7 @@
     {
       "source_id": "f35_mcas_yuma",
       "source_name": "MCAS Yuma",
-      "target_id": "lumen_pop_phoenix_az",
+      "target_id": "carrier_pop_phoenix_az",
       "target_name": "Phoenix, AZ",
       "edge_kind": "access_to_aggregation",
       "distance_miles": 156.501
@@ -1846,7 +1846,7 @@
     {
       "source_id": "f35_mcas_yuma",
       "source_name": "MCAS Yuma",
-      "target_id": "lumen_pop_san_diego_ca",
+      "target_id": "carrier_pop_san_diego_ca",
       "target_name": "San Diego, CA",
       "edge_kind": "access_to_aggregation",
       "distance_miles": 148.636
@@ -1854,7 +1854,7 @@
     {
       "source_id": "f35_nas_fallon",
       "source_name": "NAS Fallon",
-      "target_id": "lumen_pop_reno_nv",
+      "target_id": "carrier_pop_reno_nv",
       "target_name": "Reno, NV",
       "edge_kind": "access_to_aggregation",
       "distance_miles": 59.899
@@ -1862,7 +1862,7 @@
     {
       "source_id": "f35_nas_fallon",
       "source_name": "NAS Fallon",
-      "target_id": "lumen_pop_sacramento_ca",
+      "target_id": "carrier_pop_sacramento_ca",
       "target_name": "Sacramento, CA",
       "edge_kind": "access_to_aggregation",
       "distance_miles": 160.734
@@ -1870,7 +1870,7 @@
     {
       "source_id": "f35_nas_lemoore",
       "source_name": "NAS Lemoore",
-      "target_id": "lumen_pop_san_jose_ca",
+      "target_id": "carrier_pop_san_jose_ca",
       "target_name": "San Jose, CA",
       "edge_kind": "access_to_aggregation",
       "distance_miles": 127.531
@@ -1878,7 +1878,7 @@
     {
       "source_id": "f35_nas_lemoore",
       "source_name": "NAS Lemoore",
-      "target_id": "lumen_pop_san_luis_obispo_ca",
+      "target_id": "carrier_pop_san_luis_obispo_ca",
       "target_name": "San Luis Obispo, CA",
       "edge_kind": "access_to_aggregation",
       "distance_miles": 82.687
@@ -1886,7 +1886,7 @@
     {
       "source_id": "f35_nellis_afb",
       "source_name": "Nellis AFB",
-      "target_id": "lumen_pop_las_vegas_nv",
+      "target_id": "carrier_pop_las_vegas_nv",
       "target_name": "Las Vegas, NV",
       "edge_kind": "access_to_aggregation",
       "distance_miles": 7.455
@@ -1894,7 +1894,7 @@
     {
       "source_id": "f35_nellis_afb",
       "source_name": "Nellis AFB",
-      "target_id": "lumen_pop_san_bernadino_ca",
+      "target_id": "carrier_pop_san_bernadino_ca",
       "target_name": "San Bernadino, CA",
       "edge_kind": "access_to_aggregation",
       "distance_miles": 194.521
@@ -1902,7 +1902,7 @@
     {
       "source_id": "f35_ogden_air_logistics_complex",
       "source_name": "Ogden Air Logistics Complex",
-      "target_id": "lumen_pop_ogden_ut",
+      "target_id": "carrier_pop_ogden_ut",
       "target_name": "Ogden, UT",
       "edge_kind": "access_to_aggregation",
       "distance_miles": 6.84
@@ -1910,7 +1910,7 @@
     {
       "source_id": "f35_ogden_air_logistics_complex",
       "source_name": "Ogden Air Logistics Complex",
-      "target_id": "lumen_pop_salt_lake_city_ut",
+      "target_id": "carrier_pop_salt_lake_city_ut",
       "target_name": "Salt Lake City, UT",
       "edge_kind": "access_to_aggregation",
       "distance_miles": 25.458
@@ -1918,7 +1918,7 @@
     {
       "source_id": "f35_truax_field",
       "source_name": "Truax Field",
-      "target_id": "lumen_pop_madison_wi",
+      "target_id": "carrier_pop_madison_wi",
       "target_name": "Madison, WI",
       "edge_kind": "access_to_aggregation",
       "distance_miles": 5.624
@@ -1926,7 +1926,7 @@
     {
       "source_id": "f35_truax_field",
       "source_name": "Truax Field",
-      "target_id": "lumen_pop_milwaukee_wi",
+      "target_id": "carrier_pop_milwaukee_wi",
       "target_name": "Milwaukee, WI",
       "edge_kind": "access_to_aggregation",
       "distance_miles": 72.541
@@ -1934,7 +1934,7 @@
     {
       "source_id": "f35_tyndall_afb",
       "source_name": "Tyndall AFB",
-      "target_id": "lumen_pop_billingsley_al",
+      "target_id": "carrier_pop_billingsley_al",
       "target_name": "Billingsley, AL",
       "edge_kind": "access_to_aggregation",
       "distance_miles": 191.118
@@ -1942,7 +1942,7 @@
     {
       "source_id": "f35_tyndall_afb",
       "source_name": "Tyndall AFB",
-      "target_id": "lumen_pop_tallahassee_fl",
+      "target_id": "carrier_pop_tallahassee_fl",
       "target_name": "Tallahassee, FL",
       "edge_kind": "access_to_aggregation",
       "distance_miles": 81.362
@@ -1950,7 +1950,7 @@
     {
       "source_id": "sentinel_barksdale_afb",
       "source_name": "Barksdale AFB",
-      "target_id": "lumen_pop_dallas_tx",
+      "target_id": "carrier_pop_dallas_tx",
       "target_name": "Dallas, TX",
       "edge_kind": "access_to_aggregation",
       "distance_miles": 183.341
@@ -1958,7 +1958,7 @@
     {
       "source_id": "sentinel_barksdale_afb",
       "source_name": "Barksdale AFB",
-      "target_id": "lumen_pop_fort_worth_tx",
+      "target_id": "carrier_pop_fort_worth_tx",
       "target_name": "Fort Worth, TX",
       "edge_kind": "access_to_aggregation",
       "distance_miles": 214.152
@@ -1966,7 +1966,7 @@
     {
       "source_id": "sentinel_camp_guernsey",
       "source_name": "Camp Guernsey",
-      "target_id": "lumen_pop_cheyenne_wy",
+      "target_id": "carrier_pop_cheyenne_wy",
       "target_name": "Cheyenne, WY",
       "edge_kind": "access_to_aggregation",
       "distance_miles": 78.103
@@ -1974,7 +1974,7 @@
     {
       "source_id": "sentinel_camp_guernsey",
       "source_name": "Camp Guernsey",
-      "target_id": "lumen_pop_denver_co",
+      "target_id": "carrier_pop_denver_co",
       "target_name": "Denver, CO",
       "edge_kind": "access_to_aggregation",
       "distance_miles": 175.26
@@ -1982,7 +1982,7 @@
     {
       "source_id": "sentinel_camp_navajo",
       "source_name": "Camp Navajo",
-      "target_id": "lumen_pop_las_vegas_nv",
+      "target_id": "carrier_pop_las_vegas_nv",
       "target_name": "Las Vegas, NV",
       "edge_kind": "access_to_aggregation",
       "distance_miles": 196.283
@@ -1990,7 +1990,7 @@
     {
       "source_id": "sentinel_camp_navajo",
       "source_name": "Camp Navajo",
-      "target_id": "lumen_pop_phoenix_az",
+      "target_id": "carrier_pop_phoenix_az",
       "target_name": "Phoenix, AZ",
       "edge_kind": "access_to_aggregation",
       "distance_miles": 123.257
@@ -1998,7 +1998,7 @@
     {
       "source_id": "sentinel_cape_canaveral_sfs",
       "source_name": "Cape Canaveral SFS",
-      "target_id": "lumen_pop_jacksonville_fl",
+      "target_id": "carrier_pop_jacksonville_fl",
       "target_name": "Jacksonville, FL",
       "edge_kind": "access_to_aggregation",
       "distance_miles": 142.946
@@ -2006,7 +2006,7 @@
     {
       "source_id": "sentinel_cape_canaveral_sfs",
       "source_name": "Cape Canaveral SFS",
-      "target_id": "lumen_pop_tallahassee_fl",
+      "target_id": "carrier_pop_tallahassee_fl",
       "target_name": "Tallahassee, FL",
       "edge_kind": "access_to_aggregation",
       "distance_miles": 260.317
@@ -2014,7 +2014,7 @@
     {
       "source_id": "sentinel_f_e_warren_afb",
       "source_name": "F.E. Warren AFB",
-      "target_id": "lumen_pop_cheyenne_wy",
+      "target_id": "carrier_pop_cheyenne_wy",
       "target_name": "Cheyenne, WY",
       "edge_kind": "access_to_aggregation",
       "distance_miles": 2.255
@@ -2022,7 +2022,7 @@
     {
       "source_id": "sentinel_f_e_warren_afb",
       "source_name": "F.E. Warren AFB",
-      "target_id": "lumen_pop_denver_co",
+      "target_id": "carrier_pop_denver_co",
       "target_name": "Denver, CO",
       "edge_kind": "access_to_aggregation",
       "distance_miles": 97.783
@@ -2030,7 +2030,7 @@
     {
       "source_id": "sentinel_hanscom_afb",
       "source_name": "Hanscom AFB",
-      "target_id": "lumen_pop_albany_ny",
+      "target_id": "carrier_pop_albany_ny",
       "target_name": "Albany, NY",
       "edge_kind": "access_to_aggregation",
       "distance_miles": 126.187
@@ -2038,7 +2038,7 @@
     {
       "source_id": "sentinel_hanscom_afb",
       "source_name": "Hanscom AFB",
-      "target_id": "lumen_pop_stamford_ct",
+      "target_id": "carrier_pop_stamford_ct",
       "target_name": "Stamford, CT",
       "edge_kind": "access_to_aggregation",
       "distance_miles": 151.72
@@ -2046,7 +2046,7 @@
     {
       "source_id": "sentinel_hill_afb",
       "source_name": "Hill AFB",
-      "target_id": "lumen_pop_ogden_ut",
+      "target_id": "carrier_pop_ogden_ut",
       "target_name": "Ogden, UT",
       "edge_kind": "access_to_aggregation",
       "distance_miles": 6.84
@@ -2054,7 +2054,7 @@
     {
       "source_id": "sentinel_hill_afb",
       "source_name": "Hill AFB",
-      "target_id": "lumen_pop_salt_lake_city_ut",
+      "target_id": "carrier_pop_salt_lake_city_ut",
       "target_name": "Salt Lake City, UT",
       "edge_kind": "access_to_aggregation",
       "distance_miles": 25.458
@@ -2062,7 +2062,7 @@
     {
       "source_id": "sentinel_jhu_apl",
       "source_name": "JHU APL",
-      "target_id": "lumen_pop_baltimore_md",
+      "target_id": "carrier_pop_baltimore_md",
       "target_name": "Baltimore, MD",
       "edge_kind": "access_to_aggregation",
       "distance_miles": 17.517
@@ -2070,7 +2070,7 @@
     {
       "source_id": "sentinel_jhu_apl",
       "source_name": "JHU APL",
-      "target_id": "lumen_pop_mclean_va",
+      "target_id": "carrier_pop_mclean_va",
       "target_name": "McLean, VA",
       "edge_kind": "access_to_aggregation",
       "distance_miles": 22.03
@@ -2078,7 +2078,7 @@
     {
       "source_id": "sentinel_malmstrom_afb",
       "source_name": "Malmstrom AFB",
-      "target_id": "lumen_pop_cheyenne_wy",
+      "target_id": "carrier_pop_cheyenne_wy",
       "target_name": "Cheyenne, WY",
       "edge_kind": "access_to_aggregation",
       "distance_miles": 540.28
@@ -2086,7 +2086,7 @@
     {
       "source_id": "sentinel_malmstrom_afb",
       "source_name": "Malmstrom AFB",
-      "target_id": "lumen_pop_ogden_ut",
+      "target_id": "carrier_pop_ogden_ut",
       "target_name": "Ogden, UT",
       "edge_kind": "access_to_aggregation",
       "distance_miles": 435.813
@@ -2094,7 +2094,7 @@
     {
       "source_id": "sentinel_minot_afb",
       "source_name": "Minot AFB",
-      "target_id": "lumen_pop_cheyenne_wy",
+      "target_id": "carrier_pop_cheyenne_wy",
       "target_name": "Cheyenne, WY",
       "edge_kind": "access_to_aggregation",
       "distance_miles": 530.457
@@ -2102,7 +2102,7 @@
     {
       "source_id": "sentinel_minot_afb",
       "source_name": "Minot AFB",
-      "target_id": "lumen_pop_omaha_ne",
+      "target_id": "carrier_pop_omaha_ne",
       "target_name": "Omaha, NE",
       "edge_kind": "access_to_aggregation",
       "distance_miles": 561.15
@@ -2110,7 +2110,7 @@
     {
       "source_id": "sentinel_reagan_test_site",
       "source_name": "Reagan Test Site",
-      "target_id": "lumen_pop_hayward_ca",
+      "target_id": "carrier_pop_hayward_ca",
       "target_name": "Hayward, CA",
       "edge_kind": "access_to_aggregation",
       "distance_miles": 4769.734
@@ -2118,7 +2118,7 @@
     {
       "source_id": "sentinel_reagan_test_site",
       "source_name": "Reagan Test Site",
-      "target_id": "lumen_pop_san_francisco_ca",
+      "target_id": "carrier_pop_san_francisco_ca",
       "target_name": "San Francisco, CA",
       "edge_kind": "access_to_aggregation",
       "distance_miles": 4751.991
@@ -2126,7 +2126,7 @@
     {
       "source_id": "sentinel_utah_test_and_training_range_uttr",
       "source_name": "Utah Test and Training Range (UTTR)",
-      "target_id": "lumen_pop_ogden_ut",
+      "target_id": "carrier_pop_ogden_ut",
       "target_name": "Ogden, UT",
       "edge_kind": "access_to_aggregation",
       "distance_miles": 55.598
@@ -2134,7 +2134,7 @@
     {
       "source_id": "sentinel_utah_test_and_training_range_uttr",
       "source_name": "Utah Test and Training Range (UTTR)",
-      "target_id": "lumen_pop_salt_lake_city_ut",
+      "target_id": "carrier_pop_salt_lake_city_ut",
       "target_name": "Salt Lake City, UT",
       "edge_kind": "access_to_aggregation",
       "distance_miles": 60.245
@@ -2142,7 +2142,7 @@
     {
       "source_id": "sentinel_vandenberg_sfb",
       "source_name": "Vandenberg SFB",
-      "target_id": "lumen_pop_los_angeles_ca",
+      "target_id": "carrier_pop_los_angeles_ca",
       "target_name": "Los Angeles, CA",
       "edge_kind": "access_to_aggregation",
       "distance_miles": 141.055
@@ -2150,7 +2150,7 @@
     {
       "source_id": "sentinel_vandenberg_sfb",
       "source_name": "Vandenberg SFB",
-      "target_id": "lumen_pop_san_luis_obispo_ca",
+      "target_id": "carrier_pop_san_luis_obispo_ca",
       "target_name": "San Luis Obispo, CA",
       "edge_kind": "access_to_aggregation",
       "distance_miles": 37.69
@@ -2158,7 +2158,7 @@
     {
       "source_id": "sentinel_washington_dc",
       "source_name": "Washington, DC",
-      "target_id": "lumen_pop_herndon_va",
+      "target_id": "carrier_pop_herndon_va",
       "target_name": "Herndon, VA",
       "edge_kind": "access_to_aggregation",
       "distance_miles": 19.256
@@ -2166,7 +2166,7 @@
     {
       "source_id": "sentinel_washington_dc",
       "source_name": "Washington, DC",
-      "target_id": "lumen_pop_mclean_va",
+      "target_id": "carrier_pop_mclean_va",
       "target_name": "McLean, VA",
       "edge_kind": "access_to_aggregation",
       "distance_miles": 7.77
@@ -2174,891 +2174,891 @@
   ],
   "physical_edges": [
     {
-      "source_id": "lumen_pop_akron_oh",
+      "source_id": "carrier_pop_akron_oh",
       "source_name": "Akron, OH",
-      "target_id": "lumen_pop_columbus_oh",
+      "target_id": "carrier_pop_columbus_oh",
       "target_name": "Columbus, OH",
-      "edge_kind": "lumen_physical",
+      "edge_kind": "carrier_physical",
       "distance_miles": 109.684,
       "source_page": "northeast/overview",
       "note": "visible route"
     },
     {
-      "source_id": "lumen_pop_akron_oh",
+      "source_id": "carrier_pop_akron_oh",
       "source_name": "Akron, OH",
-      "target_id": "lumen_pop_toledo_oh",
+      "target_id": "carrier_pop_toledo_oh",
       "target_name": "Toledo, OH",
-      "edge_kind": "lumen_physical",
+      "edge_kind": "carrier_physical",
       "distance_miles": 112.721,
       "source_page": "northeast",
       "note": "visible route"
     },
     {
-      "source_id": "lumen_pop_albany_ny",
+      "source_id": "carrier_pop_albany_ny",
       "source_name": "Albany, NY",
-      "target_id": "lumen_pop_buffalo_ny",
+      "target_id": "carrier_pop_buffalo_ny",
       "target_name": "Buffalo, NY",
-      "edge_kind": "lumen_physical",
+      "edge_kind": "carrier_physical",
       "distance_miles": 260.264,
       "source_page": "northeast/overview",
       "note": "visible route"
     },
     {
-      "source_id": "lumen_pop_albany_ny",
+      "source_id": "carrier_pop_albany_ny",
       "source_name": "Albany, NY",
-      "target_id": "lumen_pop_stamford_ct",
+      "target_id": "carrier_pop_stamford_ct",
       "target_name": "Stamford, CT",
-      "edge_kind": "lumen_physical",
+      "edge_kind": "carrier_physical",
       "distance_miles": 111.06,
       "source_page": "northeast/overview",
       "note": "visible route"
     },
     {
-      "source_id": "lumen_pop_albuquerque_nm",
+      "source_id": "carrier_pop_albuquerque_nm",
       "source_name": "Albuquerque, NM",
-      "target_id": "lumen_pop_denver_co",
+      "target_id": "carrier_pop_denver_co",
       "target_name": "Denver, CO",
-      "edge_kind": "lumen_physical",
+      "edge_kind": "carrier_physical",
       "distance_miles": 334.252,
       "source_page": "overview/west",
       "note": "visible route"
     },
     {
-      "source_id": "lumen_pop_albuquerque_nm",
+      "source_id": "carrier_pop_albuquerque_nm",
       "source_name": "Albuquerque, NM",
-      "target_id": "lumen_pop_el_paso_tx",
+      "target_id": "carrier_pop_el_paso_tx",
       "target_name": "El Paso, TX",
-      "edge_kind": "lumen_physical",
+      "edge_kind": "carrier_physical",
       "distance_miles": 229.761,
       "source_page": "southwest/west",
       "note": "visible route"
     },
     {
-      "source_id": "lumen_pop_ashburn_va",
+      "source_id": "carrier_pop_ashburn_va",
       "source_name": "Ashburn, VA",
-      "target_id": "lumen_pop_baltimore_md",
+      "target_id": "carrier_pop_baltimore_md",
       "target_name": "Baltimore, MD",
-      "edge_kind": "lumen_physical",
+      "edge_kind": "carrier_physical",
       "distance_miles": 49.888,
       "source_page": "northeast/overview",
       "note": "visible route"
     },
     {
-      "source_id": "lumen_pop_ashburn_va",
+      "source_id": "carrier_pop_ashburn_va",
       "source_name": "Ashburn, VA",
-      "target_id": "lumen_pop_herndon_va",
+      "target_id": "carrier_pop_herndon_va",
       "target_name": "Herndon, VA",
-      "edge_kind": "lumen_physical",
+      "edge_kind": "carrier_physical",
       "distance_miles": 7.478,
       "source_page": "northeast/overview",
       "note": "visible route"
     },
     {
-      "source_id": "lumen_pop_atlanta_ga",
+      "source_id": "carrier_pop_atlanta_ga",
       "source_name": "Atlanta, GA",
-      "target_id": "lumen_pop_augusta_ga",
+      "target_id": "carrier_pop_augusta_ga",
       "target_name": "Augusta, GA",
-      "edge_kind": "lumen_physical",
+      "edge_kind": "carrier_physical",
       "distance_miles": 140.155,
       "source_page": "southeast/overview",
       "note": "visible route"
     },
     {
-      "source_id": "lumen_pop_atlanta_ga",
+      "source_id": "carrier_pop_atlanta_ga",
       "source_name": "Atlanta, GA",
-      "target_id": "lumen_pop_billingsley_al",
+      "target_id": "carrier_pop_billingsley_al",
       "target_name": "Billingsley, AL",
-      "edge_kind": "lumen_physical",
+      "edge_kind": "carrier_physical",
       "distance_miles": 153.949,
       "source_page": "southeast/overview",
       "note": "visible route"
     },
     {
-      "source_id": "lumen_pop_atlanta_ga",
+      "source_id": "carrier_pop_atlanta_ga",
       "source_name": "Atlanta, GA",
-      "target_id": "lumen_pop_charlotte_nc",
+      "target_id": "carrier_pop_charlotte_nc",
       "target_name": "Charlotte, NC",
-      "edge_kind": "lumen_physical",
+      "edge_kind": "carrier_physical",
       "distance_miles": 226.222,
       "source_page": "southeast/overview",
       "note": "visible route"
     },
     {
-      "source_id": "lumen_pop_atlanta_ga",
+      "source_id": "carrier_pop_atlanta_ga",
       "source_name": "Atlanta, GA",
-      "target_id": "lumen_pop_nashville_tn",
+      "target_id": "carrier_pop_nashville_tn",
       "target_name": "Nashville, TN",
-      "edge_kind": "lumen_physical",
+      "edge_kind": "carrier_physical",
       "distance_miles": 214.89,
       "source_page": "southeast/overview",
       "note": "visible route"
     },
     {
-      "source_id": "lumen_pop_atlanta_ga",
+      "source_id": "carrier_pop_atlanta_ga",
       "source_name": "Atlanta, GA",
-      "target_id": "lumen_pop_tallahassee_fl",
+      "target_id": "carrier_pop_tallahassee_fl",
       "target_name": "Tallahassee, FL",
-      "edge_kind": "lumen_physical",
+      "edge_kind": "carrier_physical",
       "distance_miles": 228.834,
       "source_page": "southeast/overview",
       "note": "visible route"
     },
     {
-      "source_id": "lumen_pop_augusta_ga",
+      "source_id": "carrier_pop_augusta_ga",
       "source_name": "Augusta, GA",
-      "target_id": "lumen_pop_jacksonville_fl",
+      "target_id": "carrier_pop_jacksonville_fl",
       "target_name": "Jacksonville, FL",
-      "edge_kind": "lumen_physical",
+      "edge_kind": "carrier_physical",
       "distance_miles": 217.848,
       "source_page": "southeast",
       "note": "visible route"
     },
     {
-      "source_id": "lumen_pop_austin_tx",
+      "source_id": "carrier_pop_austin_tx",
       "source_name": "Austin, TX",
-      "target_id": "lumen_pop_houston_tx",
+      "target_id": "carrier_pop_houston_tx",
       "target_name": "Houston, TX",
-      "edge_kind": "lumen_physical",
+      "edge_kind": "carrier_physical",
       "distance_miles": 146.241,
       "source_page": "southwest",
       "note": "visible route"
     },
     {
-      "source_id": "lumen_pop_austin_tx",
+      "source_id": "carrier_pop_austin_tx",
       "source_name": "Austin, TX",
-      "target_id": "lumen_pop_san_antonio_tx",
+      "target_id": "carrier_pop_san_antonio_tx",
       "target_name": "San Antonio, TX",
-      "edge_kind": "lumen_physical",
+      "edge_kind": "carrier_physical",
       "distance_miles": 73.595,
       "source_page": "southwest",
       "note": "visible route"
     },
     {
-      "source_id": "lumen_pop_baltimore_md",
+      "source_id": "carrier_pop_baltimore_md",
       "source_name": "Baltimore, MD",
-      "target_id": "lumen_pop_mclean_va",
+      "target_id": "carrier_pop_mclean_va",
       "target_name": "McLean, VA",
-      "edge_kind": "lumen_physical",
+      "edge_kind": "carrier_physical",
       "distance_miles": 39.045,
       "source_page": "northeast/overview",
       "note": "visible route"
     },
     {
-      "source_id": "lumen_pop_baltimore_md",
+      "source_id": "carrier_pop_baltimore_md",
       "source_name": "Baltimore, MD",
-      "target_id": "lumen_pop_philadelphia_pa",
+      "target_id": "carrier_pop_philadelphia_pa",
       "target_name": "Philadelphia, PA",
-      "edge_kind": "lumen_physical",
+      "edge_kind": "carrier_physical",
       "distance_miles": 89.575,
       "source_page": "northeast/overview",
       "note": "visible route"
     },
     {
-      "source_id": "lumen_pop_billingsley_al",
+      "source_id": "carrier_pop_billingsley_al",
       "source_name": "Billingsley, AL",
-      "target_id": "lumen_pop_houston_tx",
+      "target_id": "carrier_pop_houston_tx",
       "target_name": "Houston, TX",
-      "edge_kind": "lumen_physical",
+      "edge_kind": "carrier_physical",
       "distance_miles": 549.255,
       "source_page": "southeast/overview",
       "note": "visible route"
     },
     {
-      "source_id": "lumen_pop_boise_id",
+      "source_id": "carrier_pop_boise_id",
       "source_name": "Boise, ID",
-      "target_id": "lumen_pop_ogden_ut",
+      "target_id": "carrier_pop_ogden_ut",
       "target_name": "Ogden, UT",
-      "edge_kind": "lumen_physical",
+      "edge_kind": "carrier_physical",
       "distance_miles": 271.662,
       "source_page": "overview/west",
       "note": "visible route"
     },
     {
-      "source_id": "lumen_pop_boise_id",
+      "source_id": "carrier_pop_boise_id",
       "source_name": "Boise, ID",
-      "target_id": "lumen_pop_yakima_wa",
+      "target_id": "carrier_pop_yakima_wa",
       "target_name": "Yakima, WA",
-      "edge_kind": "lumen_physical",
+      "edge_kind": "carrier_physical",
       "distance_miles": 294.257,
       "source_page": "overview/west",
       "note": "visible route"
     },
     {
-      "source_id": "lumen_pop_buffalo_ny",
+      "source_id": "carrier_pop_buffalo_ny",
       "source_name": "Buffalo, NY",
-      "target_id": "lumen_pop_cleveland_oh",
+      "target_id": "carrier_pop_cleveland_oh",
       "target_name": "Cleveland, OH",
-      "edge_kind": "lumen_physical",
+      "edge_kind": "carrier_physical",
       "distance_miles": 173.089,
       "source_page": "northeast/overview",
       "note": "visible route"
     },
     {
-      "source_id": "lumen_pop_charlotte_nc",
+      "source_id": "carrier_pop_charlotte_nc",
       "source_name": "Charlotte, NC",
-      "target_id": "lumen_pop_nashville_tn",
+      "target_id": "carrier_pop_nashville_tn",
       "target_name": "Nashville, TN",
-      "edge_kind": "lumen_physical",
+      "edge_kind": "carrier_physical",
       "distance_miles": 339.381,
       "source_page": "southeast/overview",
       "note": "visible route"
     },
     {
-      "source_id": "lumen_pop_charlotte_nc",
+      "source_id": "carrier_pop_charlotte_nc",
       "source_name": "Charlotte, NC",
-      "target_id": "lumen_pop_raleigh_nc",
+      "target_id": "carrier_pop_raleigh_nc",
       "target_name": "Raleigh, NC",
-      "edge_kind": "lumen_physical",
+      "edge_kind": "carrier_physical",
       "distance_miles": 129.759,
       "source_page": "southeast/overview",
       "note": "visible route"
     },
     {
-      "source_id": "lumen_pop_cheyenne_wy",
+      "source_id": "carrier_pop_cheyenne_wy",
       "source_name": "Cheyenne, WY",
-      "target_id": "lumen_pop_denver_co",
+      "target_id": "carrier_pop_denver_co",
       "target_name": "Denver, CO",
-      "edge_kind": "lumen_physical",
+      "edge_kind": "carrier_physical",
       "distance_miles": 97.198,
       "source_page": "overview/west",
       "note": "visible route"
     },
     {
-      "source_id": "lumen_pop_cheyenne_wy",
+      "source_id": "carrier_pop_cheyenne_wy",
       "source_name": "Cheyenne, WY",
-      "target_id": "lumen_pop_missoula_mt",
+      "target_id": "carrier_pop_missoula_mt",
       "target_name": "Missoula, MT",
-      "edge_kind": "lumen_physical",
+      "edge_kind": "carrier_physical",
       "distance_miles": 603.283,
       "source_page": "overview/west",
       "note": "visible route"
     },
     {
-      "source_id": "lumen_pop_cheyenne_wy",
+      "source_id": "carrier_pop_cheyenne_wy",
       "source_name": "Cheyenne, WY",
-      "target_id": "lumen_pop_ogden_ut",
+      "target_id": "carrier_pop_ogden_ut",
       "target_name": "Ogden, UT",
-      "edge_kind": "lumen_physical",
+      "edge_kind": "carrier_physical",
       "distance_miles": 371.938,
       "source_page": "overview/west",
       "note": "visible route"
     },
     {
-      "source_id": "lumen_pop_cheyenne_wy",
+      "source_id": "carrier_pop_cheyenne_wy",
       "source_name": "Cheyenne, WY",
-      "target_id": "lumen_pop_omaha_ne",
+      "target_id": "carrier_pop_omaha_ne",
       "target_name": "Omaha, NE",
-      "edge_kind": "lumen_physical",
+      "edge_kind": "carrier_physical",
       "distance_miles": 461.821,
       "source_page": "overview/west",
       "note": "visible route"
     },
     {
-      "source_id": "lumen_pop_chicago_il",
+      "source_id": "carrier_pop_chicago_il",
       "source_name": "Chicago, IL",
-      "target_id": "lumen_pop_davenport_ia",
+      "target_id": "carrier_pop_davenport_ia",
       "target_name": "Davenport, IA",
-      "edge_kind": "lumen_physical",
+      "edge_kind": "carrier_physical",
       "distance_miles": 154.02,
       "source_page": "overview",
       "note": "visible route"
     },
     {
-      "source_id": "lumen_pop_chicago_il",
+      "source_id": "carrier_pop_chicago_il",
       "source_name": "Chicago, IL",
-      "target_id": "lumen_pop_indianapolis_in",
+      "target_id": "carrier_pop_indianapolis_in",
       "target_name": "Indianapolis, IN",
-      "edge_kind": "lumen_physical",
+      "edge_kind": "carrier_physical",
       "distance_miles": 164.823,
       "source_page": "overview",
       "note": "visible route"
     },
     {
-      "source_id": "lumen_pop_chicago_il",
+      "source_id": "carrier_pop_chicago_il",
       "source_name": "Chicago, IL",
-      "target_id": "lumen_pop_madison_wi",
+      "target_id": "carrier_pop_madison_wi",
       "target_name": "Madison, WI",
-      "edge_kind": "lumen_physical",
+      "edge_kind": "carrier_physical",
       "distance_miles": 122.331,
       "source_page": "overview",
       "note": "visible route"
     },
     {
-      "source_id": "lumen_pop_chicago_il",
+      "source_id": "carrier_pop_chicago_il",
       "source_name": "Chicago, IL",
-      "target_id": "lumen_pop_milwaukee_wi",
+      "target_id": "carrier_pop_milwaukee_wi",
       "target_name": "Milwaukee, WI",
-      "edge_kind": "lumen_physical",
+      "edge_kind": "carrier_physical",
       "distance_miles": 81.434,
       "source_page": "overview",
       "note": "visible route"
     },
     {
-      "source_id": "lumen_pop_chicago_il",
+      "source_id": "carrier_pop_chicago_il",
       "source_name": "Chicago, IL",
-      "target_id": "lumen_pop_south_bend_in",
+      "target_id": "carrier_pop_south_bend_in",
       "target_name": "South Bend, IN",
-      "edge_kind": "lumen_physical",
+      "edge_kind": "carrier_physical",
       "distance_miles": 72.447,
       "source_page": "overview/northeast",
       "note": "visible route"
     },
     {
-      "source_id": "lumen_pop_chicago_il",
+      "source_id": "carrier_pop_chicago_il",
       "source_name": "Chicago, IL",
-      "target_id": "lumen_pop_st_louis_mo",
+      "target_id": "carrier_pop_st_louis_mo",
       "target_name": "St. Louis, MO",
-      "edge_kind": "lumen_physical",
+      "edge_kind": "carrier_physical",
       "distance_miles": 262.302,
       "source_page": "overview",
       "note": "visible route"
     },
     {
-      "source_id": "lumen_pop_cincinnati_oh",
+      "source_id": "carrier_pop_cincinnati_oh",
       "source_name": "Cincinnati, OH",
-      "target_id": "lumen_pop_columbus_oh",
+      "target_id": "carrier_pop_columbus_oh",
       "target_name": "Columbus, OH",
-      "edge_kind": "lumen_physical",
+      "edge_kind": "carrier_physical",
       "distance_miles": 100.085,
       "source_page": "northeast/overview",
       "note": "visible route"
     },
     {
-      "source_id": "lumen_pop_cincinnati_oh",
+      "source_id": "carrier_pop_cincinnati_oh",
       "source_name": "Cincinnati, OH",
-      "target_id": "lumen_pop_indianapolis_in",
+      "target_id": "carrier_pop_indianapolis_in",
       "target_name": "Indianapolis, IN",
-      "edge_kind": "lumen_physical",
+      "edge_kind": "carrier_physical",
       "distance_miles": 99.14,
       "source_page": "northeast/overview",
       "note": "visible route"
     },
     {
-      "source_id": "lumen_pop_cleveland_oh",
+      "source_id": "carrier_pop_cleveland_oh",
       "source_name": "Cleveland, OH",
-      "target_id": "lumen_pop_pittsburgh_pa",
+      "target_id": "carrier_pop_pittsburgh_pa",
       "target_name": "Pittsburgh, PA",
-      "edge_kind": "lumen_physical",
+      "edge_kind": "carrier_physical",
       "distance_miles": 114.898,
       "source_page": "northeast/overview",
       "note": "visible route"
     },
     {
-      "source_id": "lumen_pop_cleveland_oh",
+      "source_id": "carrier_pop_cleveland_oh",
       "source_name": "Cleveland, OH",
-      "target_id": "lumen_pop_toledo_oh",
+      "target_id": "carrier_pop_toledo_oh",
       "target_name": "Toledo, OH",
-      "edge_kind": "lumen_physical",
+      "edge_kind": "carrier_physical",
       "distance_miles": 96.76,
       "source_page": "northeast/overview",
       "note": "visible route"
     },
     {
-      "source_id": "lumen_pop_dallas_tx",
+      "source_id": "carrier_pop_dallas_tx",
       "source_name": "Dallas, TX",
-      "target_id": "lumen_pop_fort_worth_tx",
+      "target_id": "carrier_pop_fort_worth_tx",
       "target_name": "Fort Worth, TX",
-      "edge_kind": "lumen_physical",
+      "edge_kind": "carrier_physical",
       "distance_miles": 31.048,
       "source_page": "southwest",
       "note": "visible route"
     },
     {
-      "source_id": "lumen_pop_dallas_tx",
+      "source_id": "carrier_pop_dallas_tx",
       "source_name": "Dallas, TX",
-      "target_id": "lumen_pop_houston_tx",
+      "target_id": "carrier_pop_houston_tx",
       "target_name": "Houston, TX",
-      "edge_kind": "lumen_physical",
+      "edge_kind": "carrier_physical",
       "distance_miles": 224.797,
       "source_page": "southwest",
       "note": "visible route"
     },
     {
-      "source_id": "lumen_pop_davenport_ia",
+      "source_id": "carrier_pop_davenport_ia",
       "source_name": "Davenport, IA",
-      "target_id": "lumen_pop_des_moines_ia",
+      "target_id": "carrier_pop_des_moines_ia",
       "target_name": "Des Moines, IA",
-      "edge_kind": "lumen_physical",
+      "edge_kind": "carrier_physical",
       "distance_miles": 156.793,
       "source_page": "overview",
       "note": "visible route"
     },
     {
-      "source_id": "lumen_pop_denver_co",
+      "source_id": "carrier_pop_denver_co",
       "source_name": "Denver, CO",
-      "target_id": "lumen_pop_omaha_ne",
+      "target_id": "carrier_pop_omaha_ne",
       "target_name": "Omaha, NE",
-      "edge_kind": "lumen_physical",
+      "edge_kind": "carrier_physical",
       "distance_miles": 486.963,
       "source_page": "overview/west",
       "note": "visible route"
     },
     {
-      "source_id": "lumen_pop_denver_co",
+      "source_id": "carrier_pop_denver_co",
       "source_name": "Denver, CO",
-      "target_id": "lumen_pop_salt_lake_city_ut",
+      "target_id": "carrier_pop_salt_lake_city_ut",
       "target_name": "Salt Lake City, UT",
-      "edge_kind": "lumen_physical",
+      "edge_kind": "carrier_physical",
       "distance_miles": 370.581,
       "source_page": "overview/west",
       "note": "visible route"
     },
     {
-      "source_id": "lumen_pop_des_moines_ia",
+      "source_id": "carrier_pop_des_moines_ia",
       "source_name": "Des Moines, IA",
-      "target_id": "lumen_pop_kansas_city_mo",
+      "target_id": "carrier_pop_kansas_city_mo",
       "target_name": "Kansas City, MO",
-      "edge_kind": "lumen_physical",
+      "edge_kind": "carrier_physical",
       "distance_miles": 179.263,
       "source_page": "overview",
       "note": "visible route"
     },
     {
-      "source_id": "lumen_pop_des_moines_ia",
+      "source_id": "carrier_pop_des_moines_ia",
       "source_name": "Des Moines, IA",
-      "target_id": "lumen_pop_minneapolis_mn",
+      "target_id": "carrier_pop_minneapolis_mn",
       "target_name": "Minneapolis, MN",
-      "edge_kind": "lumen_physical",
+      "edge_kind": "carrier_physical",
       "distance_miles": 234.934,
       "source_page": "overview",
       "note": "visible route"
     },
     {
-      "source_id": "lumen_pop_des_moines_ia",
+      "source_id": "carrier_pop_des_moines_ia",
       "source_name": "Des Moines, IA",
-      "target_id": "lumen_pop_omaha_ne",
+      "target_id": "carrier_pop_omaha_ne",
       "target_name": "Omaha, NE",
-      "edge_kind": "lumen_physical",
+      "edge_kind": "carrier_physical",
       "distance_miles": 122.618,
       "source_page": "overview",
       "note": "visible route"
     },
     {
-      "source_id": "lumen_pop_el_paso_tx",
+      "source_id": "carrier_pop_el_paso_tx",
       "source_name": "El Paso, TX",
-      "target_id": "lumen_pop_san_antonio_tx",
+      "target_id": "carrier_pop_san_antonio_tx",
       "target_name": "San Antonio, TX",
-      "edge_kind": "lumen_physical",
+      "edge_kind": "carrier_physical",
       "distance_miles": 501.834,
       "source_page": "southwest",
       "note": "visible route"
     },
     {
-      "source_id": "lumen_pop_el_paso_tx",
+      "source_id": "carrier_pop_el_paso_tx",
       "source_name": "El Paso, TX",
-      "target_id": "lumen_pop_tucson_az",
+      "target_id": "carrier_pop_tucson_az",
       "target_name": "Tucson, AZ",
-      "edge_kind": "lumen_physical",
+      "edge_kind": "carrier_physical",
       "distance_miles": 264.992,
       "source_page": "overview/southwest",
       "note": "visible route"
     },
     {
-      "source_id": "lumen_pop_fort_worth_tx",
+      "source_id": "carrier_pop_fort_worth_tx",
       "source_name": "Fort Worth, TX",
-      "target_id": "lumen_pop_tulsa_ok",
+      "target_id": "carrier_pop_tulsa_ok",
       "target_name": "Tulsa, OK",
-      "edge_kind": "lumen_physical",
+      "edge_kind": "carrier_physical",
       "distance_miles": 246.869,
       "source_page": "southwest",
       "note": "visible route"
     },
     {
-      "source_id": "lumen_pop_hayward_ca",
+      "source_id": "carrier_pop_hayward_ca",
       "source_name": "Hayward, CA",
-      "target_id": "lumen_pop_san_francisco_ca",
+      "target_id": "carrier_pop_san_francisco_ca",
       "target_name": "San Francisco, CA",
-      "edge_kind": "lumen_physical",
+      "edge_kind": "carrier_physical",
       "distance_miles": 19.904,
       "source_page": "overview/west",
       "note": "visible route"
     },
     {
-      "source_id": "lumen_pop_hayward_ca",
+      "source_id": "carrier_pop_hayward_ca",
       "source_name": "Hayward, CA",
-      "target_id": "lumen_pop_sunnyvale_ca",
+      "target_id": "carrier_pop_sunnyvale_ca",
       "target_name": "Sunnyvale, CA",
-      "edge_kind": "lumen_physical",
+      "edge_kind": "carrier_physical",
       "distance_miles": 20.871,
       "source_page": "overview/west",
       "note": "visible route"
     },
     {
-      "source_id": "lumen_pop_herndon_va",
+      "source_id": "carrier_pop_herndon_va",
       "source_name": "Herndon, VA",
-      "target_id": "lumen_pop_mclean_va",
+      "target_id": "carrier_pop_mclean_va",
       "target_name": "McLean, VA",
-      "edge_kind": "lumen_physical",
+      "edge_kind": "carrier_physical",
       "distance_miles": 11.487,
       "source_page": "northeast/overview",
       "note": "visible route"
     },
     {
-      "source_id": "lumen_pop_houston_tx",
+      "source_id": "carrier_pop_houston_tx",
       "source_name": "Houston, TX",
-      "target_id": "lumen_pop_san_antonio_tx",
+      "target_id": "carrier_pop_san_antonio_tx",
       "target_name": "San Antonio, TX",
-      "edge_kind": "lumen_physical",
+      "edge_kind": "carrier_physical",
       "distance_miles": 189.108,
       "source_page": "southwest",
       "note": "visible route"
     },
     {
-      "source_id": "lumen_pop_houston_tx",
+      "source_id": "carrier_pop_houston_tx",
       "source_name": "Houston, TX",
-      "target_id": "lumen_pop_tallahassee_fl",
+      "target_id": "carrier_pop_tallahassee_fl",
       "target_name": "Tallahassee, FL",
-      "edge_kind": "lumen_physical",
+      "edge_kind": "carrier_physical",
       "distance_miles": 664.254,
       "source_page": "southeast/overview",
       "note": "visible Gulf route"
     },
     {
-      "source_id": "lumen_pop_indianapolis_in",
+      "source_id": "carrier_pop_indianapolis_in",
       "source_name": "Indianapolis, IN",
-      "target_id": "lumen_pop_st_louis_mo",
+      "target_id": "carrier_pop_st_louis_mo",
       "target_name": "St. Louis, MO",
-      "edge_kind": "lumen_physical",
+      "edge_kind": "carrier_physical",
       "distance_miles": 230.289,
       "source_page": "overview",
       "note": "visible route"
     },
     {
-      "source_id": "lumen_pop_jacksonville_fl",
+      "source_id": "carrier_pop_jacksonville_fl",
       "source_name": "Jacksonville, FL",
-      "target_id": "lumen_pop_tallahassee_fl",
+      "target_id": "carrier_pop_tallahassee_fl",
       "target_name": "Tallahassee, FL",
-      "edge_kind": "lumen_physical",
+      "edge_kind": "carrier_physical",
       "distance_miles": 156.626,
       "source_page": "southeast/overview",
       "note": "visible route"
     },
     {
-      "source_id": "lumen_pop_kansas_city_mo",
+      "source_id": "carrier_pop_kansas_city_mo",
       "source_name": "Kansas City, MO",
-      "target_id": "lumen_pop_st_louis_mo",
+      "target_id": "carrier_pop_st_louis_mo",
       "target_name": "St. Louis, MO",
-      "edge_kind": "lumen_physical",
+      "edge_kind": "carrier_physical",
       "distance_miles": 237.826,
       "source_page": "overview",
       "note": "visible route"
     },
     {
-      "source_id": "lumen_pop_kansas_city_mo",
+      "source_id": "carrier_pop_kansas_city_mo",
       "source_name": "Kansas City, MO",
-      "target_id": "lumen_pop_tulsa_ok",
+      "target_id": "carrier_pop_tulsa_ok",
       "target_name": "Tulsa, OK",
-      "edge_kind": "lumen_physical",
+      "edge_kind": "carrier_physical",
       "distance_miles": 217.736,
       "source_page": "overview",
       "note": "visible route"
     },
     {
-      "source_id": "lumen_pop_las_vegas_nv",
+      "source_id": "carrier_pop_las_vegas_nv",
       "source_name": "Las Vegas, NV",
-      "target_id": "lumen_pop_salt_lake_city_ut",
+      "target_id": "carrier_pop_salt_lake_city_ut",
       "target_name": "Salt Lake City, UT",
-      "edge_kind": "lumen_physical",
+      "edge_kind": "carrier_physical",
       "distance_miles": 362.569,
       "source_page": "overview/west",
       "note": "visible route"
     },
     {
-      "source_id": "lumen_pop_las_vegas_nv",
+      "source_id": "carrier_pop_las_vegas_nv",
       "source_name": "Las Vegas, NV",
-      "target_id": "lumen_pop_san_bernadino_ca",
+      "target_id": "carrier_pop_san_bernadino_ca",
       "target_name": "San Bernadino, CA",
-      "edge_kind": "lumen_physical",
+      "edge_kind": "carrier_physical",
       "distance_miles": 187.196,
       "source_page": "overview/west",
       "note": "visible route"
     },
     {
-      "source_id": "lumen_pop_los_angeles_ca",
+      "source_id": "carrier_pop_los_angeles_ca",
       "source_name": "Los Angeles, CA",
-      "target_id": "lumen_pop_san_bernadino_ca",
+      "target_id": "carrier_pop_san_bernadino_ca",
       "target_name": "San Bernadino, CA",
-      "edge_kind": "lumen_physical",
+      "edge_kind": "carrier_physical",
       "distance_miles": 54.726,
       "source_page": "overview/west",
       "note": "visible route"
     },
     {
-      "source_id": "lumen_pop_los_angeles_ca",
+      "source_id": "carrier_pop_los_angeles_ca",
       "source_name": "Los Angeles, CA",
-      "target_id": "lumen_pop_san_luis_obispo_ca",
+      "target_id": "carrier_pop_san_luis_obispo_ca",
       "target_name": "San Luis Obispo, CA",
-      "edge_kind": "lumen_physical",
+      "edge_kind": "carrier_physical",
       "distance_miles": 161.477,
       "source_page": "overview/west",
       "note": "visible route"
     },
     {
-      "source_id": "lumen_pop_los_angeles_ca",
+      "source_id": "carrier_pop_los_angeles_ca",
       "source_name": "Los Angeles, CA",
-      "target_id": "lumen_pop_tustin_ca",
+      "target_id": "carrier_pop_tustin_ca",
       "target_name": "Tustin, CA",
-      "edge_kind": "lumen_physical",
+      "edge_kind": "carrier_physical",
       "distance_miles": 31.943,
       "source_page": "overview/west",
       "note": "visible route"
     },
     {
-      "source_id": "lumen_pop_madison_wi",
+      "source_id": "carrier_pop_madison_wi",
       "source_name": "Madison, WI",
-      "target_id": "lumen_pop_milwaukee_wi",
+      "target_id": "carrier_pop_milwaukee_wi",
       "target_name": "Milwaukee, WI",
-      "edge_kind": "lumen_physical",
+      "edge_kind": "carrier_physical",
       "distance_miles": 75.497,
       "source_page": "overview",
       "note": "visible route"
     },
     {
-      "source_id": "lumen_pop_mclean_va",
+      "source_id": "carrier_pop_mclean_va",
       "source_name": "McLean, VA",
-      "target_id": "lumen_pop_richmond_va",
+      "target_id": "carrier_pop_richmond_va",
       "target_name": "Richmond, VA",
-      "edge_kind": "lumen_physical",
+      "edge_kind": "carrier_physical",
       "distance_miles": 97.279,
       "source_page": "northeast/overview",
       "note": "visible route"
     },
     {
-      "source_id": "lumen_pop_milwaukee_wi",
+      "source_id": "carrier_pop_milwaukee_wi",
       "source_name": "Milwaukee, WI",
-      "target_id": "lumen_pop_minneapolis_mn",
+      "target_id": "carrier_pop_minneapolis_mn",
       "target_name": "Minneapolis, MN",
-      "edge_kind": "lumen_physical",
+      "edge_kind": "carrier_physical",
       "distance_miles": 298.003,
       "source_page": "overview",
       "note": "visible route"
     },
     {
-      "source_id": "lumen_pop_missoula_mt",
+      "source_id": "carrier_pop_missoula_mt",
       "source_name": "Missoula, MT",
-      "target_id": "lumen_pop_yakima_wa",
+      "target_id": "carrier_pop_yakima_wa",
       "target_name": "Yakima, WA",
-      "edge_kind": "lumen_physical",
+      "edge_kind": "carrier_physical",
       "distance_miles": 308.71,
       "source_page": "overview/west",
       "note": "visible route"
     },
     {
-      "source_id": "lumen_pop_nashville_tn",
+      "source_id": "carrier_pop_nashville_tn",
       "source_name": "Nashville, TN",
-      "target_id": "lumen_pop_st_louis_mo",
+      "target_id": "carrier_pop_st_louis_mo",
       "target_name": "St. Louis, MO",
-      "edge_kind": "lumen_physical",
+      "edge_kind": "carrier_physical",
       "distance_miles": 253.318,
       "source_page": "overview",
       "note": "visible route"
     },
     {
-      "source_id": "lumen_pop_new_york_ny",
+      "source_id": "carrier_pop_new_york_ny",
       "source_name": "New York, NY",
-      "target_id": "lumen_pop_newark_nj",
+      "target_id": "carrier_pop_newark_nj",
       "target_name": "Newark, NJ",
-      "edge_kind": "lumen_physical",
+      "edge_kind": "carrier_physical",
       "distance_miles": 8.856,
       "source_page": "northeast/overview",
       "note": "visible route"
     },
     {
-      "source_id": "lumen_pop_new_york_ny",
+      "source_id": "carrier_pop_new_york_ny",
       "source_name": "New York, NY",
-      "target_id": "lumen_pop_stamford_ct",
+      "target_id": "carrier_pop_stamford_ct",
       "target_name": "Stamford, CT",
-      "edge_kind": "lumen_physical",
+      "edge_kind": "carrier_physical",
       "distance_miles": 33.907,
       "source_page": "northeast/overview",
       "note": "visible route"
     },
     {
-      "source_id": "lumen_pop_newark_nj",
+      "source_id": "carrier_pop_newark_nj",
       "source_name": "Newark, NJ",
-      "target_id": "lumen_pop_philadelphia_pa",
+      "target_id": "carrier_pop_philadelphia_pa",
       "target_name": "Philadelphia, PA",
-      "edge_kind": "lumen_physical",
+      "edge_kind": "carrier_physical",
       "distance_miles": 75.238,
       "source_page": "northeast/overview",
       "note": "visible route"
     },
     {
-      "source_id": "lumen_pop_ogden_ut",
+      "source_id": "carrier_pop_ogden_ut",
       "source_name": "Ogden, UT",
-      "target_id": "lumen_pop_salt_lake_city_ut",
+      "target_id": "carrier_pop_salt_lake_city_ut",
       "target_name": "Salt Lake City, UT",
-      "edge_kind": "lumen_physical",
+      "edge_kind": "carrier_physical",
       "distance_miles": 32.226,
       "source_page": "overview/west",
       "note": "visible route"
     },
     {
-      "source_id": "lumen_pop_philadelphia_pa",
+      "source_id": "carrier_pop_philadelphia_pa",
       "source_name": "Philadelphia, PA",
-      "target_id": "lumen_pop_pittsburgh_pa",
+      "target_id": "carrier_pop_pittsburgh_pa",
       "target_name": "Pittsburgh, PA",
-      "edge_kind": "lumen_physical",
+      "edge_kind": "carrier_physical",
       "distance_miles": 257.131,
       "source_page": "northeast/overview",
       "note": "visible route"
     },
     {
-      "source_id": "lumen_pop_phoenix_az",
+      "source_id": "carrier_pop_phoenix_az",
       "source_name": "Phoenix, AZ",
-      "target_id": "lumen_pop_san_bernadino_ca",
+      "target_id": "carrier_pop_san_bernadino_ca",
       "target_name": "San Bernadino, CA",
-      "edge_kind": "lumen_physical",
+      "edge_kind": "carrier_physical",
       "distance_miles": 302.959,
       "source_page": "overview/west",
       "note": "visible route"
     },
     {
-      "source_id": "lumen_pop_phoenix_az",
+      "source_id": "carrier_pop_phoenix_az",
       "source_name": "Phoenix, AZ",
-      "target_id": "lumen_pop_san_diego_ca",
+      "target_id": "carrier_pop_san_diego_ca",
       "target_name": "San Diego, CA",
-      "edge_kind": "lumen_physical",
+      "edge_kind": "carrier_physical",
       "distance_miles": 298.792,
       "source_page": "overview/west",
       "note": "visible route"
     },
     {
-      "source_id": "lumen_pop_phoenix_az",
+      "source_id": "carrier_pop_phoenix_az",
       "source_name": "Phoenix, AZ",
-      "target_id": "lumen_pop_tucson_az",
+      "target_id": "carrier_pop_tucson_az",
       "target_name": "Tucson, AZ",
-      "edge_kind": "lumen_physical",
+      "edge_kind": "carrier_physical",
       "distance_miles": 106.046,
       "source_page": "overview/southwest",
       "note": "visible route"
     },
     {
-      "source_id": "lumen_pop_portland_or",
+      "source_id": "carrier_pop_portland_or",
       "source_name": "Portland, OR",
-      "target_id": "lumen_pop_sacramento_ca",
+      "target_id": "carrier_pop_sacramento_ca",
       "target_name": "Sacramento, CA",
-      "edge_kind": "lumen_physical",
+      "edge_kind": "carrier_physical",
       "distance_miles": 482.874,
       "source_page": "overview/west",
       "note": "visible route"
     },
     {
-      "source_id": "lumen_pop_portland_or",
+      "source_id": "carrier_pop_portland_or",
       "source_name": "Portland, OR",
-      "target_id": "lumen_pop_seattle_wa",
+      "target_id": "carrier_pop_seattle_wa",
       "target_name": "Seattle, WA",
-      "edge_kind": "lumen_physical",
+      "edge_kind": "carrier_physical",
       "distance_miles": 145.397,
       "source_page": "overview/west",
       "note": "visible route"
     },
     {
-      "source_id": "lumen_pop_raleigh_nc",
+      "source_id": "carrier_pop_raleigh_nc",
       "source_name": "Raleigh, NC",
-      "target_id": "lumen_pop_richmond_va",
+      "target_id": "carrier_pop_richmond_va",
       "target_name": "Richmond, VA",
-      "edge_kind": "lumen_physical",
+      "edge_kind": "carrier_physical",
       "distance_miles": 138.727,
       "source_page": "northeast/overview",
       "note": "visible route"
     },
     {
-      "source_id": "lumen_pop_reno_nv",
+      "source_id": "carrier_pop_reno_nv",
       "source_name": "Reno, NV",
-      "target_id": "lumen_pop_sacramento_ca",
+      "target_id": "carrier_pop_sacramento_ca",
       "target_name": "Sacramento, CA",
-      "edge_kind": "lumen_physical",
+      "edge_kind": "carrier_physical",
       "distance_miles": 111.446,
       "source_page": "overview/west",
       "note": "visible route"
     },
     {
-      "source_id": "lumen_pop_reno_nv",
+      "source_id": "carrier_pop_reno_nv",
       "source_name": "Reno, NV",
-      "target_id": "lumen_pop_salt_lake_city_ut",
+      "target_id": "carrier_pop_salt_lake_city_ut",
       "target_name": "Salt Lake City, UT",
-      "edge_kind": "lumen_physical",
+      "edge_kind": "carrier_physical",
       "distance_miles": 426.849,
       "source_page": "overview/west",
       "note": "visible route"
     },
     {
-      "source_id": "lumen_pop_riverside_ca",
+      "source_id": "carrier_pop_riverside_ca",
       "source_name": "Riverside, CA",
-      "target_id": "lumen_pop_san_bernadino_ca",
+      "target_id": "carrier_pop_san_bernadino_ca",
       "target_name": "San Bernadino, CA",
-      "edge_kind": "lumen_physical",
+      "edge_kind": "carrier_physical",
       "distance_miles": 12.321,
       "source_page": "overview/west",
       "note": "visible route"
     },
     {
-      "source_id": "lumen_pop_riverside_ca",
+      "source_id": "carrier_pop_riverside_ca",
       "source_name": "Riverside, CA",
-      "target_id": "lumen_pop_san_diego_ca",
+      "target_id": "carrier_pop_san_diego_ca",
       "target_name": "San Diego, CA",
-      "edge_kind": "lumen_physical",
+      "edge_kind": "carrier_physical",
       "distance_miles": 86.58,
       "source_page": "overview/west",
       "note": "visible route"
     },
     {
-      "source_id": "lumen_pop_sacramento_ca",
+      "source_id": "carrier_pop_sacramento_ca",
       "source_name": "Sacramento, CA",
-      "target_id": "lumen_pop_san_francisco_ca",
+      "target_id": "carrier_pop_san_francisco_ca",
       "target_name": "San Francisco, CA",
-      "edge_kind": "lumen_physical",
+      "edge_kind": "carrier_physical",
       "distance_miles": 75.038,
       "source_page": "overview/west",
       "note": "visible route"
     },
     {
-      "source_id": "lumen_pop_san_diego_ca",
+      "source_id": "carrier_pop_san_diego_ca",
       "source_name": "San Diego, CA",
-      "target_id": "lumen_pop_tustin_ca",
+      "target_id": "carrier_pop_tustin_ca",
       "target_name": "Tustin, CA",
-      "edge_kind": "lumen_physical",
+      "edge_kind": "carrier_physical",
       "distance_miles": 80.904,
       "source_page": "overview/west",
       "note": "visible route"
     },
     {
-      "source_id": "lumen_pop_san_jose_ca",
+      "source_id": "carrier_pop_san_jose_ca",
       "source_name": "San Jose, CA",
-      "target_id": "lumen_pop_san_luis_obispo_ca",
+      "target_id": "carrier_pop_san_luis_obispo_ca",
       "target_name": "San Luis Obispo, CA",
-      "edge_kind": "lumen_physical",
+      "edge_kind": "carrier_physical",
       "distance_miles": 157.58,
       "source_page": "overview/west",
       "note": "visible route"
     },
     {
-      "source_id": "lumen_pop_san_jose_ca",
+      "source_id": "carrier_pop_san_jose_ca",
       "source_name": "San Jose, CA",
-      "target_id": "lumen_pop_sunnyvale_ca",
+      "target_id": "carrier_pop_sunnyvale_ca",
       "target_name": "Sunnyvale, CA",
-      "edge_kind": "lumen_physical",
+      "edge_kind": "carrier_physical",
       "distance_miles": 8.505,
       "source_page": "overview/west",
       "note": "visible route"
     },
     {
-      "source_id": "lumen_pop_seattle_wa",
+      "source_id": "carrier_pop_seattle_wa",
       "source_name": "Seattle, WA",
-      "target_id": "lumen_pop_yakima_wa",
+      "target_id": "carrier_pop_yakima_wa",
       "target_name": "Yakima, WA",
-      "edge_kind": "lumen_physical",
+      "edge_kind": "carrier_physical",
       "distance_miles": 110.401,
       "source_page": "overview/west",
       "note": "visible route"
     },
     {
-      "source_id": "lumen_pop_south_bend_in",
+      "source_id": "carrier_pop_south_bend_in",
       "source_name": "South Bend, IN",
-      "target_id": "lumen_pop_toledo_oh",
+      "target_id": "carrier_pop_toledo_oh",
       "target_name": "Toledo, OH",
-      "edge_kind": "lumen_physical",
+      "edge_kind": "carrier_physical",
       "distance_miles": 139.099,
       "source_page": "northeast",
       "note": "visible route"
@@ -3067,9 +3067,9 @@
   "path_uses": [
     {
       "purpose": "core_mesh",
-      "source_id": "lumen_pop_des_moines_ia",
+      "source_id": "carrier_pop_des_moines_ia",
       "source_name": "Des Moines, IA",
-      "target_id": "lumen_pop_albuquerque_nm",
+      "target_id": "carrier_pop_albuquerque_nm",
       "target_name": "Albuquerque, NM",
       "distance_miles": 943.834,
       "path": [
@@ -3081,9 +3081,9 @@
     },
     {
       "purpose": "core_mesh",
-      "source_id": "lumen_pop_des_moines_ia",
+      "source_id": "carrier_pop_des_moines_ia",
       "source_name": "Des Moines, IA",
-      "target_id": "lumen_pop_houston_tx",
+      "target_id": "carrier_pop_houston_tx",
       "target_name": "Houston, TX",
       "distance_miles": 899.713,
       "path": [
@@ -3097,9 +3097,9 @@
     },
     {
       "purpose": "core_mesh",
-      "source_id": "lumen_pop_albuquerque_nm",
+      "source_id": "carrier_pop_albuquerque_nm",
       "source_name": "Albuquerque, NM",
-      "target_id": "lumen_pop_houston_tx",
+      "target_id": "carrier_pop_houston_tx",
       "target_name": "Houston, TX",
       "distance_miles": 920.703,
       "path": [
@@ -3111,9 +3111,9 @@
     },
     {
       "purpose": "aggregation_to_core",
-      "source_id": "lumen_pop_albany_ny",
+      "source_id": "carrier_pop_albany_ny",
       "source_name": "Albany, NY",
-      "target_id": "lumen_pop_des_moines_ia",
+      "target_id": "carrier_pop_des_moines_ia",
       "target_name": "Des Moines, IA",
       "distance_miles": 1052.473,
       "path": [
@@ -3129,9 +3129,9 @@
     },
     {
       "purpose": "aggregation_to_core",
-      "source_id": "lumen_pop_albany_ny",
+      "source_id": "carrier_pop_albany_ny",
       "source_name": "Albany, NY",
-      "target_id": "lumen_pop_houston_tx",
+      "target_id": "carrier_pop_houston_tx",
       "target_name": "Houston, TX",
       "distance_miles": 1652.872,
       "path": [
@@ -3152,9 +3152,9 @@
     },
     {
       "purpose": "aggregation_to_core",
-      "source_id": "lumen_pop_ashburn_va",
+      "source_id": "carrier_pop_ashburn_va",
       "source_name": "Ashburn, VA",
-      "target_id": "lumen_pop_des_moines_ia",
+      "target_id": "carrier_pop_des_moines_ia",
       "target_name": "Des Moines, IA",
       "distance_miles": 1130.612,
       "path": [
@@ -3172,9 +3172,9 @@
     },
     {
       "purpose": "aggregation_to_core",
-      "source_id": "lumen_pop_ashburn_va",
+      "source_id": "carrier_pop_ashburn_va",
       "source_name": "Ashburn, VA",
-      "target_id": "lumen_pop_houston_tx",
+      "target_id": "carrier_pop_houston_tx",
       "target_name": "Houston, TX",
       "distance_miles": 1314.157,
       "path": [
@@ -3191,9 +3191,9 @@
     },
     {
       "purpose": "aggregation_to_core",
-      "source_id": "lumen_pop_atlanta_ga",
+      "source_id": "carrier_pop_atlanta_ga",
       "source_name": "Atlanta, GA",
-      "target_id": "lumen_pop_des_moines_ia",
+      "target_id": "carrier_pop_des_moines_ia",
       "target_name": "Des Moines, IA",
       "distance_miles": 885.297,
       "path": [
@@ -3206,9 +3206,9 @@
     },
     {
       "purpose": "aggregation_to_core",
-      "source_id": "lumen_pop_atlanta_ga",
+      "source_id": "carrier_pop_atlanta_ga",
       "source_name": "Atlanta, GA",
-      "target_id": "lumen_pop_houston_tx",
+      "target_id": "carrier_pop_houston_tx",
       "target_name": "Houston, TX",
       "distance_miles": 703.204,
       "path": [
@@ -3219,9 +3219,9 @@
     },
     {
       "purpose": "aggregation_to_core",
-      "source_id": "lumen_pop_austin_tx",
+      "source_id": "carrier_pop_austin_tx",
       "source_name": "Austin, TX",
-      "target_id": "lumen_pop_albuquerque_nm",
+      "target_id": "carrier_pop_albuquerque_nm",
       "target_name": "Albuquerque, NM",
       "distance_miles": 805.19,
       "path": [
@@ -3233,9 +3233,9 @@
     },
     {
       "purpose": "aggregation_to_core",
-      "source_id": "lumen_pop_austin_tx",
+      "source_id": "carrier_pop_austin_tx",
       "source_name": "Austin, TX",
-      "target_id": "lumen_pop_houston_tx",
+      "target_id": "carrier_pop_houston_tx",
       "target_name": "Houston, TX",
       "distance_miles": 146.241,
       "path": [
@@ -3245,9 +3245,9 @@
     },
     {
       "purpose": "aggregation_to_core",
-      "source_id": "lumen_pop_baltimore_md",
+      "source_id": "carrier_pop_baltimore_md",
       "source_name": "Baltimore, MD",
-      "target_id": "lumen_pop_des_moines_ia",
+      "target_id": "carrier_pop_des_moines_ia",
       "target_name": "Des Moines, IA",
       "distance_miles": 1080.724,
       "path": [
@@ -3264,9 +3264,9 @@
     },
     {
       "purpose": "aggregation_to_core",
-      "source_id": "lumen_pop_baltimore_md",
+      "source_id": "carrier_pop_baltimore_md",
       "source_name": "Baltimore, MD",
-      "target_id": "lumen_pop_houston_tx",
+      "target_id": "carrier_pop_houston_tx",
       "target_name": "Houston, TX",
       "distance_miles": 1334.236,
       "path": [
@@ -3282,9 +3282,9 @@
     },
     {
       "purpose": "aggregation_to_core",
-      "source_id": "lumen_pop_billingsley_al",
+      "source_id": "carrier_pop_billingsley_al",
       "source_name": "Billingsley, AL",
-      "target_id": "lumen_pop_des_moines_ia",
+      "target_id": "carrier_pop_des_moines_ia",
       "target_name": "Des Moines, IA",
       "distance_miles": 1039.246,
       "path": [
@@ -3298,9 +3298,9 @@
     },
     {
       "purpose": "aggregation_to_core",
-      "source_id": "lumen_pop_billingsley_al",
+      "source_id": "carrier_pop_billingsley_al",
       "source_name": "Billingsley, AL",
-      "target_id": "lumen_pop_houston_tx",
+      "target_id": "carrier_pop_houston_tx",
       "target_name": "Houston, TX",
       "distance_miles": 549.255,
       "path": [
@@ -3310,9 +3310,9 @@
     },
     {
       "purpose": "aggregation_to_core",
-      "source_id": "lumen_pop_charlotte_nc",
+      "source_id": "carrier_pop_charlotte_nc",
       "source_name": "Charlotte, NC",
-      "target_id": "lumen_pop_des_moines_ia",
+      "target_id": "carrier_pop_des_moines_ia",
       "target_name": "Des Moines, IA",
       "distance_miles": 1009.789,
       "path": [
@@ -3325,9 +3325,9 @@
     },
     {
       "purpose": "aggregation_to_core",
-      "source_id": "lumen_pop_charlotte_nc",
+      "source_id": "carrier_pop_charlotte_nc",
       "source_name": "Charlotte, NC",
-      "target_id": "lumen_pop_houston_tx",
+      "target_id": "carrier_pop_houston_tx",
       "target_name": "Houston, TX",
       "distance_miles": 929.426,
       "path": [
@@ -3339,9 +3339,9 @@
     },
     {
       "purpose": "aggregation_to_core",
-      "source_id": "lumen_pop_cheyenne_wy",
+      "source_id": "carrier_pop_cheyenne_wy",
       "source_name": "Cheyenne, WY",
-      "target_id": "lumen_pop_albuquerque_nm",
+      "target_id": "carrier_pop_albuquerque_nm",
       "target_name": "Albuquerque, NM",
       "distance_miles": 431.451,
       "path": [
@@ -3352,9 +3352,9 @@
     },
     {
       "purpose": "aggregation_to_core",
-      "source_id": "lumen_pop_cheyenne_wy",
+      "source_id": "carrier_pop_cheyenne_wy",
       "source_name": "Cheyenne, WY",
-      "target_id": "lumen_pop_des_moines_ia",
+      "target_id": "carrier_pop_des_moines_ia",
       "target_name": "Des Moines, IA",
       "distance_miles": 584.44,
       "path": [
@@ -3365,9 +3365,9 @@
     },
     {
       "purpose": "aggregation_to_core",
-      "source_id": "lumen_pop_columbus_oh",
+      "source_id": "carrier_pop_columbus_oh",
       "source_name": "Columbus, OH",
-      "target_id": "lumen_pop_des_moines_ia",
+      "target_id": "carrier_pop_des_moines_ia",
       "target_name": "Des Moines, IA",
       "distance_miles": 744.765,
       "path": [
@@ -3382,9 +3382,9 @@
     },
     {
       "purpose": "aggregation_to_core",
-      "source_id": "lumen_pop_columbus_oh",
+      "source_id": "carrier_pop_columbus_oh",
       "source_name": "Columbus, OH",
-      "target_id": "lumen_pop_houston_tx",
+      "target_id": "carrier_pop_houston_tx",
       "target_name": "Houston, TX",
       "distance_miles": 1387.791,
       "path": [
@@ -3401,9 +3401,9 @@
     },
     {
       "purpose": "aggregation_to_core",
-      "source_id": "lumen_pop_dallas_tx",
+      "source_id": "carrier_pop_dallas_tx",
       "source_name": "Dallas, TX",
-      "target_id": "lumen_pop_des_moines_ia",
+      "target_id": "carrier_pop_des_moines_ia",
       "target_name": "Des Moines, IA",
       "distance_miles": 674.916,
       "path": [
@@ -3416,9 +3416,9 @@
     },
     {
       "purpose": "aggregation_to_core",
-      "source_id": "lumen_pop_dallas_tx",
+      "source_id": "carrier_pop_dallas_tx",
       "source_name": "Dallas, TX",
-      "target_id": "lumen_pop_houston_tx",
+      "target_id": "carrier_pop_houston_tx",
       "target_name": "Houston, TX",
       "distance_miles": 224.797,
       "path": [
@@ -3428,9 +3428,9 @@
     },
     {
       "purpose": "aggregation_to_core",
-      "source_id": "lumen_pop_denver_co",
+      "source_id": "carrier_pop_denver_co",
       "source_name": "Denver, CO",
-      "target_id": "lumen_pop_albuquerque_nm",
+      "target_id": "carrier_pop_albuquerque_nm",
       "target_name": "Albuquerque, NM",
       "distance_miles": 334.252,
       "path": [
@@ -3440,9 +3440,9 @@
     },
     {
       "purpose": "aggregation_to_core",
-      "source_id": "lumen_pop_denver_co",
+      "source_id": "carrier_pop_denver_co",
       "source_name": "Denver, CO",
-      "target_id": "lumen_pop_des_moines_ia",
+      "target_id": "carrier_pop_des_moines_ia",
       "target_name": "Des Moines, IA",
       "distance_miles": 609.582,
       "path": [
@@ -3453,9 +3453,9 @@
     },
     {
       "purpose": "aggregation_to_core",
-      "source_id": "lumen_pop_fort_worth_tx",
+      "source_id": "carrier_pop_fort_worth_tx",
       "source_name": "Fort Worth, TX",
-      "target_id": "lumen_pop_des_moines_ia",
+      "target_id": "carrier_pop_des_moines_ia",
       "target_name": "Des Moines, IA",
       "distance_miles": 643.868,
       "path": [
@@ -3467,9 +3467,9 @@
     },
     {
       "purpose": "aggregation_to_core",
-      "source_id": "lumen_pop_fort_worth_tx",
+      "source_id": "carrier_pop_fort_worth_tx",
       "source_name": "Fort Worth, TX",
-      "target_id": "lumen_pop_houston_tx",
+      "target_id": "carrier_pop_houston_tx",
       "target_name": "Houston, TX",
       "distance_miles": 255.846,
       "path": [
@@ -3480,9 +3480,9 @@
     },
     {
       "purpose": "aggregation_to_core",
-      "source_id": "lumen_pop_hayward_ca",
+      "source_id": "carrier_pop_hayward_ca",
       "source_name": "Hayward, CA",
-      "target_id": "lumen_pop_albuquerque_nm",
+      "target_id": "carrier_pop_albuquerque_nm",
       "target_name": "Albuquerque, NM",
       "distance_miles": 1306.917,
       "path": [
@@ -3500,9 +3500,9 @@
     },
     {
       "purpose": "aggregation_to_core",
-      "source_id": "lumen_pop_hayward_ca",
+      "source_id": "carrier_pop_hayward_ca",
       "source_name": "Hayward, CA",
-      "target_id": "lumen_pop_des_moines_ia",
+      "target_id": "carrier_pop_des_moines_ia",
       "target_name": "Des Moines, IA",
       "distance_miles": 1613.399,
       "path": [
@@ -3518,9 +3518,9 @@
     },
     {
       "purpose": "aggregation_to_core",
-      "source_id": "lumen_pop_herndon_va",
+      "source_id": "carrier_pop_herndon_va",
       "source_name": "Herndon, VA",
-      "target_id": "lumen_pop_des_moines_ia",
+      "target_id": "carrier_pop_des_moines_ia",
       "target_name": "Des Moines, IA",
       "distance_miles": 1138.09,
       "path": [
@@ -3539,9 +3539,9 @@
     },
     {
       "purpose": "aggregation_to_core",
-      "source_id": "lumen_pop_herndon_va",
+      "source_id": "carrier_pop_herndon_va",
       "source_name": "Herndon, VA",
-      "target_id": "lumen_pop_houston_tx",
+      "target_id": "carrier_pop_houston_tx",
       "target_name": "Houston, TX",
       "distance_miles": 1306.679,
       "path": [
@@ -3557,9 +3557,9 @@
     },
     {
       "purpose": "aggregation_to_core",
-      "source_id": "lumen_pop_indianapolis_in",
+      "source_id": "carrier_pop_indianapolis_in",
       "source_name": "Indianapolis, IN",
-      "target_id": "lumen_pop_des_moines_ia",
+      "target_id": "carrier_pop_des_moines_ia",
       "target_name": "Des Moines, IA",
       "distance_miles": 475.636,
       "path": [
@@ -3571,9 +3571,9 @@
     },
     {
       "purpose": "aggregation_to_core",
-      "source_id": "lumen_pop_indianapolis_in",
+      "source_id": "carrier_pop_indianapolis_in",
       "source_name": "Indianapolis, IN",
-      "target_id": "lumen_pop_houston_tx",
+      "target_id": "carrier_pop_houston_tx",
       "target_name": "Houston, TX",
       "distance_miles": 1188.566,
       "path": [
@@ -3588,9 +3588,9 @@
     },
     {
       "purpose": "aggregation_to_core",
-      "source_id": "lumen_pop_jacksonville_fl",
+      "source_id": "carrier_pop_jacksonville_fl",
       "source_name": "Jacksonville, FL",
-      "target_id": "lumen_pop_des_moines_ia",
+      "target_id": "carrier_pop_des_moines_ia",
       "target_name": "Des Moines, IA",
       "distance_miles": 1243.301,
       "path": [
@@ -3605,9 +3605,9 @@
     },
     {
       "purpose": "aggregation_to_core",
-      "source_id": "lumen_pop_jacksonville_fl",
+      "source_id": "carrier_pop_jacksonville_fl",
       "source_name": "Jacksonville, FL",
-      "target_id": "lumen_pop_houston_tx",
+      "target_id": "carrier_pop_houston_tx",
       "target_name": "Houston, TX",
       "distance_miles": 820.88,
       "path": [
@@ -3618,9 +3618,9 @@
     },
     {
       "purpose": "aggregation_to_core",
-      "source_id": "lumen_pop_las_vegas_nv",
+      "source_id": "carrier_pop_las_vegas_nv",
       "source_name": "Las Vegas, NV",
-      "target_id": "lumen_pop_albuquerque_nm",
+      "target_id": "carrier_pop_albuquerque_nm",
       "target_name": "Albuquerque, NM",
       "distance_miles": 1090.954,
       "path": [
@@ -3634,9 +3634,9 @@
     },
     {
       "purpose": "aggregation_to_core",
-      "source_id": "lumen_pop_las_vegas_nv",
+      "source_id": "carrier_pop_las_vegas_nv",
       "source_name": "Las Vegas, NV",
-      "target_id": "lumen_pop_des_moines_ia",
+      "target_id": "carrier_pop_des_moines_ia",
       "target_name": "Des Moines, IA",
       "distance_miles": 1342.732,
       "path": [
@@ -3649,9 +3649,9 @@
     },
     {
       "purpose": "aggregation_to_core",
-      "source_id": "lumen_pop_los_angeles_ca",
+      "source_id": "carrier_pop_los_angeles_ca",
       "source_name": "Los Angeles, CA",
-      "target_id": "lumen_pop_albuquerque_nm",
+      "target_id": "carrier_pop_albuquerque_nm",
       "target_name": "Albuquerque, NM",
       "distance_miles": 1012.438,
       "path": [
@@ -3666,9 +3666,9 @@
     },
     {
       "purpose": "aggregation_to_core",
-      "source_id": "lumen_pop_los_angeles_ca",
+      "source_id": "carrier_pop_los_angeles_ca",
       "source_name": "Los Angeles, CA",
-      "target_id": "lumen_pop_des_moines_ia",
+      "target_id": "carrier_pop_des_moines_ia",
       "target_name": "Des Moines, IA",
       "distance_miles": 1584.654,
       "path": [
@@ -3683,9 +3683,9 @@
     },
     {
       "purpose": "aggregation_to_core",
-      "source_id": "lumen_pop_madison_wi",
+      "source_id": "carrier_pop_madison_wi",
       "source_name": "Madison, WI",
-      "target_id": "lumen_pop_des_moines_ia",
+      "target_id": "carrier_pop_des_moines_ia",
       "target_name": "Des Moines, IA",
       "distance_miles": 608.433,
       "path": [
@@ -3697,9 +3697,9 @@
     },
     {
       "purpose": "aggregation_to_core",
-      "source_id": "lumen_pop_madison_wi",
+      "source_id": "carrier_pop_madison_wi",
       "source_name": "Madison, WI",
-      "target_id": "lumen_pop_houston_tx",
+      "target_id": "carrier_pop_houston_tx",
       "target_name": "Houston, TX",
       "distance_miles": 1342.91,
       "path": [
@@ -3715,9 +3715,9 @@
     },
     {
       "purpose": "aggregation_to_core",
-      "source_id": "lumen_pop_mclean_va",
+      "source_id": "carrier_pop_mclean_va",
       "source_name": "McLean, VA",
-      "target_id": "lumen_pop_des_moines_ia",
+      "target_id": "carrier_pop_des_moines_ia",
       "target_name": "Des Moines, IA",
       "distance_miles": 1119.769,
       "path": [
@@ -3735,9 +3735,9 @@
     },
     {
       "purpose": "aggregation_to_core",
-      "source_id": "lumen_pop_mclean_va",
+      "source_id": "carrier_pop_mclean_va",
       "source_name": "McLean, VA",
-      "target_id": "lumen_pop_houston_tx",
+      "target_id": "carrier_pop_houston_tx",
       "target_name": "Houston, TX",
       "distance_miles": 1295.191,
       "path": [
@@ -3752,9 +3752,9 @@
     },
     {
       "purpose": "aggregation_to_core",
-      "source_id": "lumen_pop_milwaukee_wi",
+      "source_id": "carrier_pop_milwaukee_wi",
       "source_name": "Milwaukee, WI",
-      "target_id": "lumen_pop_des_moines_ia",
+      "target_id": "carrier_pop_des_moines_ia",
       "target_name": "Des Moines, IA",
       "distance_miles": 532.936,
       "path": [
@@ -3765,9 +3765,9 @@
     },
     {
       "purpose": "aggregation_to_core",
-      "source_id": "lumen_pop_milwaukee_wi",
+      "source_id": "carrier_pop_milwaukee_wi",
       "source_name": "Milwaukee, WI",
-      "target_id": "lumen_pop_houston_tx",
+      "target_id": "carrier_pop_houston_tx",
       "target_name": "Houston, TX",
       "distance_miles": 1302.013,
       "path": [
@@ -3783,9 +3783,9 @@
     },
     {
       "purpose": "aggregation_to_core",
-      "source_id": "lumen_pop_ogden_ut",
+      "source_id": "carrier_pop_ogden_ut",
       "source_name": "Ogden, UT",
-      "target_id": "lumen_pop_albuquerque_nm",
+      "target_id": "carrier_pop_albuquerque_nm",
       "target_name": "Albuquerque, NM",
       "distance_miles": 737.059,
       "path": [
@@ -3797,9 +3797,9 @@
     },
     {
       "purpose": "aggregation_to_core",
-      "source_id": "lumen_pop_ogden_ut",
+      "source_id": "carrier_pop_ogden_ut",
       "source_name": "Ogden, UT",
-      "target_id": "lumen_pop_des_moines_ia",
+      "target_id": "carrier_pop_des_moines_ia",
       "target_name": "Des Moines, IA",
       "distance_miles": 956.378,
       "path": [
@@ -3811,9 +3811,9 @@
     },
     {
       "purpose": "aggregation_to_core",
-      "source_id": "lumen_pop_omaha_ne",
+      "source_id": "carrier_pop_omaha_ne",
       "source_name": "Omaha, NE",
-      "target_id": "lumen_pop_albuquerque_nm",
+      "target_id": "carrier_pop_albuquerque_nm",
       "target_name": "Albuquerque, NM",
       "distance_miles": 821.216,
       "path": [
@@ -3824,9 +3824,9 @@
     },
     {
       "purpose": "aggregation_to_core",
-      "source_id": "lumen_pop_omaha_ne",
+      "source_id": "carrier_pop_omaha_ne",
       "source_name": "Omaha, NE",
-      "target_id": "lumen_pop_des_moines_ia",
+      "target_id": "carrier_pop_des_moines_ia",
       "target_name": "Des Moines, IA",
       "distance_miles": 122.618,
       "path": [
@@ -3836,9 +3836,9 @@
     },
     {
       "purpose": "aggregation_to_core",
-      "source_id": "lumen_pop_phoenix_az",
+      "source_id": "carrier_pop_phoenix_az",
       "source_name": "Phoenix, AZ",
-      "target_id": "lumen_pop_albuquerque_nm",
+      "target_id": "carrier_pop_albuquerque_nm",
       "target_name": "Albuquerque, NM",
       "distance_miles": 600.799,
       "path": [
@@ -3850,9 +3850,9 @@
     },
     {
       "purpose": "aggregation_to_core",
-      "source_id": "lumen_pop_phoenix_az",
+      "source_id": "carrier_pop_phoenix_az",
       "source_name": "Phoenix, AZ",
-      "target_id": "lumen_pop_des_moines_ia",
+      "target_id": "carrier_pop_des_moines_ia",
       "target_name": "Des Moines, IA",
       "distance_miles": 1832.887,
       "path": [
@@ -3867,9 +3867,9 @@
     },
     {
       "purpose": "aggregation_to_core",
-      "source_id": "lumen_pop_raleigh_nc",
+      "source_id": "carrier_pop_raleigh_nc",
       "source_name": "Raleigh, NC",
-      "target_id": "lumen_pop_des_moines_ia",
+      "target_id": "carrier_pop_des_moines_ia",
       "target_name": "Des Moines, IA",
       "distance_miles": 1355.775,
       "path": [
@@ -3889,9 +3889,9 @@
     },
     {
       "purpose": "aggregation_to_core",
-      "source_id": "lumen_pop_raleigh_nc",
+      "source_id": "carrier_pop_raleigh_nc",
       "source_name": "Raleigh, NC",
-      "target_id": "lumen_pop_houston_tx",
+      "target_id": "carrier_pop_houston_tx",
       "target_name": "Houston, TX",
       "distance_miles": 1059.185,
       "path": [
@@ -3904,9 +3904,9 @@
     },
     {
       "purpose": "aggregation_to_core",
-      "source_id": "lumen_pop_reno_nv",
+      "source_id": "carrier_pop_reno_nv",
       "source_name": "Reno, NV",
-      "target_id": "lumen_pop_albuquerque_nm",
+      "target_id": "carrier_pop_albuquerque_nm",
       "target_name": "Albuquerque, NM",
       "distance_miles": 1513.305,
       "path": [
@@ -3927,9 +3927,9 @@
     },
     {
       "purpose": "aggregation_to_core",
-      "source_id": "lumen_pop_reno_nv",
+      "source_id": "carrier_pop_reno_nv",
       "source_name": "Reno, NV",
-      "target_id": "lumen_pop_des_moines_ia",
+      "target_id": "carrier_pop_des_moines_ia",
       "target_name": "Des Moines, IA",
       "distance_miles": 1407.012,
       "path": [
@@ -3942,9 +3942,9 @@
     },
     {
       "purpose": "aggregation_to_core",
-      "source_id": "lumen_pop_riverside_ca",
+      "source_id": "carrier_pop_riverside_ca",
       "source_name": "Riverside, CA",
-      "target_id": "lumen_pop_albuquerque_nm",
+      "target_id": "carrier_pop_albuquerque_nm",
       "target_name": "Albuquerque, NM",
       "distance_miles": 986.172,
       "path": [
@@ -3958,9 +3958,9 @@
     },
     {
       "purpose": "aggregation_to_core",
-      "source_id": "lumen_pop_riverside_ca",
+      "source_id": "carrier_pop_riverside_ca",
       "source_name": "Riverside, CA",
-      "target_id": "lumen_pop_des_moines_ia",
+      "target_id": "carrier_pop_des_moines_ia",
       "target_name": "Des Moines, IA",
       "distance_miles": 1542.249,
       "path": [
@@ -3975,9 +3975,9 @@
     },
     {
       "purpose": "aggregation_to_core",
-      "source_id": "lumen_pop_sacramento_ca",
+      "source_id": "carrier_pop_sacramento_ca",
       "source_name": "Sacramento, CA",
-      "target_id": "lumen_pop_albuquerque_nm",
+      "target_id": "carrier_pop_albuquerque_nm",
       "target_name": "Albuquerque, NM",
       "distance_miles": 1401.859,
       "path": [
@@ -3997,9 +3997,9 @@
     },
     {
       "purpose": "aggregation_to_core",
-      "source_id": "lumen_pop_sacramento_ca",
+      "source_id": "carrier_pop_sacramento_ca",
       "source_name": "Sacramento, CA",
-      "target_id": "lumen_pop_des_moines_ia",
+      "target_id": "carrier_pop_des_moines_ia",
       "target_name": "Des Moines, IA",
       "distance_miles": 1518.457,
       "path": [
@@ -4013,9 +4013,9 @@
     },
     {
       "purpose": "aggregation_to_core",
-      "source_id": "lumen_pop_salt_lake_city_ut",
+      "source_id": "carrier_pop_salt_lake_city_ut",
       "source_name": "Salt Lake City, UT",
-      "target_id": "lumen_pop_albuquerque_nm",
+      "target_id": "carrier_pop_albuquerque_nm",
       "target_name": "Albuquerque, NM",
       "distance_miles": 704.833,
       "path": [
@@ -4026,9 +4026,9 @@
     },
     {
       "purpose": "aggregation_to_core",
-      "source_id": "lumen_pop_salt_lake_city_ut",
+      "source_id": "carrier_pop_salt_lake_city_ut",
       "source_name": "Salt Lake City, UT",
-      "target_id": "lumen_pop_des_moines_ia",
+      "target_id": "carrier_pop_des_moines_ia",
       "target_name": "Des Moines, IA",
       "distance_miles": 988.603,
       "path": [
@@ -4041,9 +4041,9 @@
     },
     {
       "purpose": "aggregation_to_core",
-      "source_id": "lumen_pop_san_antonio_tx",
+      "source_id": "carrier_pop_san_antonio_tx",
       "source_name": "San Antonio, TX",
-      "target_id": "lumen_pop_albuquerque_nm",
+      "target_id": "carrier_pop_albuquerque_nm",
       "target_name": "Albuquerque, NM",
       "distance_miles": 731.595,
       "path": [
@@ -4054,9 +4054,9 @@
     },
     {
       "purpose": "aggregation_to_core",
-      "source_id": "lumen_pop_san_antonio_tx",
+      "source_id": "carrier_pop_san_antonio_tx",
       "source_name": "San Antonio, TX",
-      "target_id": "lumen_pop_houston_tx",
+      "target_id": "carrier_pop_houston_tx",
       "target_name": "Houston, TX",
       "distance_miles": 189.108,
       "path": [
@@ -4066,9 +4066,9 @@
     },
     {
       "purpose": "aggregation_to_core",
-      "source_id": "lumen_pop_san_bernadino_ca",
+      "source_id": "carrier_pop_san_bernadino_ca",
       "source_name": "San Bernadino, CA",
-      "target_id": "lumen_pop_albuquerque_nm",
+      "target_id": "carrier_pop_albuquerque_nm",
       "target_name": "Albuquerque, NM",
       "distance_miles": 903.758,
       "path": [
@@ -4081,9 +4081,9 @@
     },
     {
       "purpose": "aggregation_to_core",
-      "source_id": "lumen_pop_san_bernadino_ca",
+      "source_id": "carrier_pop_san_bernadino_ca",
       "source_name": "San Bernadino, CA",
-      "target_id": "lumen_pop_des_moines_ia",
+      "target_id": "carrier_pop_des_moines_ia",
       "target_name": "Des Moines, IA",
       "distance_miles": 1529.928,
       "path": [
@@ -4097,9 +4097,9 @@
     },
     {
       "purpose": "aggregation_to_core",
-      "source_id": "lumen_pop_san_diego_ca",
+      "source_id": "carrier_pop_san_diego_ca",
       "source_name": "San Diego, CA",
-      "target_id": "lumen_pop_albuquerque_nm",
+      "target_id": "carrier_pop_albuquerque_nm",
       "target_name": "Albuquerque, NM",
       "distance_miles": 899.591,
       "path": [
@@ -4112,9 +4112,9 @@
     },
     {
       "purpose": "aggregation_to_core",
-      "source_id": "lumen_pop_san_diego_ca",
+      "source_id": "carrier_pop_san_diego_ca",
       "source_name": "San Diego, CA",
-      "target_id": "lumen_pop_des_moines_ia",
+      "target_id": "carrier_pop_des_moines_ia",
       "target_name": "Des Moines, IA",
       "distance_miles": 1628.829,
       "path": [
@@ -4130,9 +4130,9 @@
     },
     {
       "purpose": "aggregation_to_core",
-      "source_id": "lumen_pop_san_francisco_ca",
+      "source_id": "carrier_pop_san_francisco_ca",
       "source_name": "San Francisco, CA",
-      "target_id": "lumen_pop_albuquerque_nm",
+      "target_id": "carrier_pop_albuquerque_nm",
       "target_name": "Albuquerque, NM",
       "distance_miles": 1326.822,
       "path": [
@@ -4151,9 +4151,9 @@
     },
     {
       "purpose": "aggregation_to_core",
-      "source_id": "lumen_pop_san_francisco_ca",
+      "source_id": "carrier_pop_san_francisco_ca",
       "source_name": "San Francisco, CA",
-      "target_id": "lumen_pop_des_moines_ia",
+      "target_id": "carrier_pop_des_moines_ia",
       "target_name": "Des Moines, IA",
       "distance_miles": 1593.495,
       "path": [
@@ -4168,9 +4168,9 @@
     },
     {
       "purpose": "aggregation_to_core",
-      "source_id": "lumen_pop_san_jose_ca",
+      "source_id": "carrier_pop_san_jose_ca",
       "source_name": "San Jose, CA",
-      "target_id": "lumen_pop_albuquerque_nm",
+      "target_id": "carrier_pop_albuquerque_nm",
       "target_name": "Albuquerque, NM",
       "distance_miles": 1277.541,
       "path": [
@@ -4186,9 +4186,9 @@
     },
     {
       "purpose": "aggregation_to_core",
-      "source_id": "lumen_pop_san_jose_ca",
+      "source_id": "carrier_pop_san_jose_ca",
       "source_name": "San Jose, CA",
-      "target_id": "lumen_pop_des_moines_ia",
+      "target_id": "carrier_pop_des_moines_ia",
       "target_name": "Des Moines, IA",
       "distance_miles": 1642.776,
       "path": [
@@ -4206,9 +4206,9 @@
     },
     {
       "purpose": "aggregation_to_core",
-      "source_id": "lumen_pop_san_luis_obispo_ca",
+      "source_id": "carrier_pop_san_luis_obispo_ca",
       "source_name": "San Luis Obispo, CA",
-      "target_id": "lumen_pop_albuquerque_nm",
+      "target_id": "carrier_pop_albuquerque_nm",
       "target_name": "Albuquerque, NM",
       "distance_miles": 1119.961,
       "path": [
@@ -4223,9 +4223,9 @@
     },
     {
       "purpose": "aggregation_to_core",
-      "source_id": "lumen_pop_san_luis_obispo_ca",
+      "source_id": "carrier_pop_san_luis_obispo_ca",
       "source_name": "San Luis Obispo, CA",
-      "target_id": "lumen_pop_des_moines_ia",
+      "target_id": "carrier_pop_des_moines_ia",
       "target_name": "Des Moines, IA",
       "distance_miles": 1800.356,
       "path": [
@@ -4244,9 +4244,9 @@
     },
     {
       "purpose": "aggregation_to_core",
-      "source_id": "lumen_pop_seattle_wa",
+      "source_id": "carrier_pop_seattle_wa",
       "source_name": "Seattle, WA",
-      "target_id": "lumen_pop_albuquerque_nm",
+      "target_id": "carrier_pop_albuquerque_nm",
       "target_name": "Albuquerque, NM",
       "distance_miles": 1871.399,
       "path": [
@@ -4261,9 +4261,9 @@
     },
     {
       "purpose": "aggregation_to_core",
-      "source_id": "lumen_pop_seattle_wa",
+      "source_id": "carrier_pop_seattle_wa",
       "source_name": "Seattle, WA",
-      "target_id": "lumen_pop_des_moines_ia",
+      "target_id": "carrier_pop_des_moines_ia",
       "target_name": "Des Moines, IA",
       "distance_miles": 1606.833,
       "path": [
@@ -4277,9 +4277,9 @@
     },
     {
       "purpose": "aggregation_to_core",
-      "source_id": "lumen_pop_stamford_ct",
+      "source_id": "carrier_pop_stamford_ct",
       "source_name": "Stamford, CT",
-      "target_id": "lumen_pop_des_moines_ia",
+      "target_id": "carrier_pop_des_moines_ia",
       "target_name": "Des Moines, IA",
       "distance_miles": 1163.532,
       "path": [
@@ -4296,9 +4296,9 @@
     },
     {
       "purpose": "aggregation_to_core",
-      "source_id": "lumen_pop_stamford_ct",
+      "source_id": "carrier_pop_stamford_ct",
       "source_name": "Stamford, CT",
-      "target_id": "lumen_pop_houston_tx",
+      "target_id": "carrier_pop_houston_tx",
       "target_name": "Houston, TX",
       "distance_miles": 1541.813,
       "path": [
@@ -4318,9 +4318,9 @@
     },
     {
       "purpose": "aggregation_to_core",
-      "source_id": "lumen_pop_tallahassee_fl",
+      "source_id": "carrier_pop_tallahassee_fl",
       "source_name": "Tallahassee, FL",
-      "target_id": "lumen_pop_des_moines_ia",
+      "target_id": "carrier_pop_des_moines_ia",
       "target_name": "Des Moines, IA",
       "distance_miles": 1114.131,
       "path": [
@@ -4334,9 +4334,9 @@
     },
     {
       "purpose": "aggregation_to_core",
-      "source_id": "lumen_pop_tallahassee_fl",
+      "source_id": "carrier_pop_tallahassee_fl",
       "source_name": "Tallahassee, FL",
-      "target_id": "lumen_pop_houston_tx",
+      "target_id": "carrier_pop_houston_tx",
       "target_name": "Houston, TX",
       "distance_miles": 664.254,
       "path": [
@@ -4346,9 +4346,9 @@
     },
     {
       "purpose": "aggregation_to_core",
-      "source_id": "lumen_pop_tucson_az",
+      "source_id": "carrier_pop_tucson_az",
       "source_name": "Tucson, AZ",
-      "target_id": "lumen_pop_albuquerque_nm",
+      "target_id": "carrier_pop_albuquerque_nm",
       "target_name": "Albuquerque, NM",
       "distance_miles": 494.753,
       "path": [
@@ -4359,9 +4359,9 @@
     },
     {
       "purpose": "aggregation_to_core",
-      "source_id": "lumen_pop_tucson_az",
+      "source_id": "carrier_pop_tucson_az",
       "source_name": "Tucson, AZ",
-      "target_id": "lumen_pop_des_moines_ia",
+      "target_id": "carrier_pop_des_moines_ia",
       "target_name": "Des Moines, IA",
       "distance_miles": 1938.932,
       "path": [
@@ -4377,9 +4377,9 @@
     },
     {
       "purpose": "aggregation_to_core",
-      "source_id": "lumen_pop_tulsa_ok",
+      "source_id": "carrier_pop_tulsa_ok",
       "source_name": "Tulsa, OK",
-      "target_id": "lumen_pop_des_moines_ia",
+      "target_id": "carrier_pop_des_moines_ia",
       "target_name": "Des Moines, IA",
       "distance_miles": 396.999,
       "path": [
@@ -4390,9 +4390,9 @@
     },
     {
       "purpose": "aggregation_to_core",
-      "source_id": "lumen_pop_tulsa_ok",
+      "source_id": "carrier_pop_tulsa_ok",
       "source_name": "Tulsa, OK",
-      "target_id": "lumen_pop_houston_tx",
+      "target_id": "carrier_pop_houston_tx",
       "target_name": "Houston, TX",
       "distance_miles": 502.715,
       "path": [
@@ -4404,9 +4404,9 @@
     },
     {
       "purpose": "aggregation_to_core",
-      "source_id": "lumen_pop_yakima_wa",
+      "source_id": "carrier_pop_yakima_wa",
       "source_name": "Yakima, WA",
-      "target_id": "lumen_pop_albuquerque_nm",
+      "target_id": "carrier_pop_albuquerque_nm",
       "target_name": "Albuquerque, NM",
       "distance_miles": 1302.978,
       "path": [
@@ -4420,9 +4420,9 @@
     },
     {
       "purpose": "aggregation_to_core",
-      "source_id": "lumen_pop_yakima_wa",
+      "source_id": "carrier_pop_yakima_wa",
       "source_name": "Yakima, WA",
-      "target_id": "lumen_pop_des_moines_ia",
+      "target_id": "carrier_pop_des_moines_ia",
       "target_name": "Des Moines, IA",
       "distance_miles": 1496.432,
       "path": [
