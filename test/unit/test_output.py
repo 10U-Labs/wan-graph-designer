@@ -95,14 +95,20 @@ def test_kml_layer_for_node_omits_directionless_secret() -> None:
 
 def test_kml_layer_for_node_routes_cui_regions() -> None:
     """CUI regions split east/west into their own layers."""
-    assert kml_layer_for_node(_region("CUI East Region", "cui_region"), "access") == "cui_east"
-    assert kml_layer_for_node(_region("CUI West Region", "cui_region"), "access") == "cui_west"
+    layers = (
+        kml_layer_for_node(_region("CUI East Region", "cui_region"), "access"),
+        kml_layer_for_node(_region("CUI West Region", "cui_region"), "access"),
+    )
+    assert layers == ("cui_east", "cui_west")
 
 
 def test_kml_layer_for_node_routes_top_secret_regions() -> None:
     """Top Secret regions split east/west into their own layers."""
-    assert kml_layer_for_node(_region("Top Secret East Region", "ts_region"), "access") == "ts_east"
-    assert kml_layer_for_node(_region("Top Secret West Region", "ts_region"), "access") == "ts_west"
+    layers = (
+        kml_layer_for_node(_region("Top Secret East Region", "ts_region"), "access"),
+        kml_layer_for_node(_region("Top Secret West Region", "ts_region"), "access"),
+    )
+    assert layers == ("ts_east", "ts_west")
 
 
 def test_kml_layer_for_node_uses_tier_role_for_carrier_pops() -> None:
