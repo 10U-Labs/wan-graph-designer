@@ -1,7 +1,7 @@
 # The single store for the whole product. Layout (S3 key prefixes):
-#   source/    -- git-authored inputs pushed via the API (carriers/csps/customers)
+#   source/    -- git-authored inputs pushed via the API (carriers/csps/tenants)
 #   builds/    -- per-create working artifacts (lifecycle-expired)
-#   carriers/  csps/  substrate/  customers/  -- published graph JSON the read
+#   carriers/  csps/  substrate/  tenants/  -- published graph JSON the read
 #                                                endpoints serve
 # Builds write here; every read endpoint serves from here.
 
